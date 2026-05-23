@@ -3,6 +3,43 @@ _Ordinea: cel mai recent sus_
 
 ---
 
+## [2026-05-23] A DOUA RULARE — Delta incremental
+
+**Stare anterioara:** RESEARCH.md complet de la 2026-05-22.
+**Surse verificate:** 20+ URL-uri cautate prin WebSearch; WebFetch blocat 403 pe toate sursele externe (politica retea container identica); date extrase din snippets.
+**Acoperire data:** surse datate 2026-01 pana 2026-05 (Q1 2026 benchmarks noi); nimic strict post-mai 2026.
+
+**Delta adaugat:**
+
+G1 (paleta/contrast):
+- Ierarhia semnalelor algoritm confirmata explicit: Saves > DM Shares > Watch Time > Profile Clicks > Comments > Likes
+- Brand recognition in 0.3 secunde = principiu de coerenta cromatica (mai concret)
+
+G2 (tipografie/ierarhie):
+- Motion pe slide 1 (cinemagraph/zoom subtil) = +22% stop-scroll power vs. static (NOU — diferit de Unicode +22% CTR din rularea 1)
+- Pozitionare text upper third = zona cea mai vizibila in feed
+- Maximalism tipografic 2026 confirmat: oversized + gradient + color-on-color contrast = trend dominant
+
+G3 (layout/compozitie):
+- BENTO GRID HYBRID (MAJOR NOU): compozitie bento impartita pe 2-3 slide-uri verticale = densitate informationala + preferinta algoritm simultan
+- Benchmark Q1 2026 revizuit cu cifre precise: carusel 6.90% vs. single 4.44% vs. Reels 3.31%
+- 5-7 slide-uri = 3.4x mai multe saves + 2.1x mai multe shares vs. static
+- Carusel = 22% mai multe saves vs. single photo; 2x vs. Reels
+- Watermark alt app = demotat de algoritm (practic, actional)
+
+G4 (element neasteptat):
+- 4 semnale distributie: 1 DM share = ~15 likes, 1 save = 3-10x un like
+- Design pentru "trimit asta cuiva" > design pentru like — shift de intentie in creare
+
+**Goluri ramase:**
+- Niciun studiu cu sample size cunoscut/metodologie publicata
+- Lipsesc cifre specifice pe estetica i-vory (stil abstractizat/minimal vs. editorial greu)
+- Bento hybrid: nicio masurare de save-rate pe conturi mici (<10k) — datele pot fi skewed spre conturi mari
+
+**Urmatoarea rulare:** verifica daca apar date june 2026 pe bento grid performance + save-rate pe paleta neutra specifica.
+
+---
+
 ## [2026-05-22] PRIMA RULARE — Delta complet (punct 0)
 
 **Stare anterioara:** repo gol, niciun fisier anterior.
