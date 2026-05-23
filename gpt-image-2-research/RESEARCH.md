@@ -1,6 +1,6 @@
 # GPT-IMAGE-2 RESEARCH — i-vory Studio
 
-Ultima actualizare: 2026-05-22
+Ultima actualizare: 2026-05-23
 Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "LOCKED PRODUCT")
 
 ---
@@ -30,13 +30,16 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 
 ### DE TESTAT
 
-**CONTRADICTIE CRITICA — Lungimea promptului:**
+**CONTRADICTIE CRITICA — Lungimea promptului (actualizat 2026-05-23):**
 - Baseline FURAT v4 zice 850-1100 cuvinte optimal
-- Pixo.video ("15 field-tested techniques", 2026-04, single source): "sweet spot = 100-300 cuvinte Instant Mode, max 500 Thinking Mode; past a few hundred tokens model starts ignoring earlier instructions"
+- Pixo.video ("15 field-tested techniques", 2026-04/05): "100-300 cuvinte Instant Mode, max 500 Thinking Mode; early users reported 600-word version quietly dropped constraints from top" — testat de Pixo cu comparatii 150/300/600 cuvinte (single org, dar cu test propriu)
+- tokenmix.ai / dev.to (2026-04): "prompts over ~500 tokens see diminishing returns" — al doilea domeniu care confirma prag ~375-500 cuvinte
 - GitHub Anil-matcha: 100-400 cuvinte performanta optima; 500+ = risc incoerenta
 - GitHub YouMind: 150-800 cuvinte, 800+ numai pentru infografice complexe/UI mockups
 - Cookbook oficial: nu da limita fixa, zice "long prompts can work but debugging harder"
-- **ACTIUNE NECESARA:** Testat local cu acelasi prompt la 300 / 600 / 1000 cuvinte. Pana atunci: nu exista confirmare solida ca 850-1100 cuvinte e optim single-shot.
+- magiccreator-ai GitHub: prompts de 350-650 cuvinte functioneaza pentru sarcini complexe (portrete detaliate, urban scenes)
+- **SINTEZA:** Doua surse independente (Pixo + tokenmix) converg pe 300-500 cuvinte optim pentru Instant Mode. Thinking Mode tolereaza mai mult dar adauga 30-90 sec latenta. 850-1100 cuvinte = probabil suboptimal single-shot Instant; ar putea functiona cu Thinking Mode pentru infografice complexe.
+- **ACTIUNE NECESARA:** Testat local cu acelasi prompt la 300 / 600 / 1000 cuvinte. Pana atunci: nu exista confirmare solida ca 850-1100 e optim.
 
 **"7-Part Prompt Formula" / "8-Element Framework":**
 - Mentionat de Felo AI si alte surse dar fara autor verificabil
@@ -86,10 +89,12 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - Alt workaround de testat: "render Romanian text: [TEXTUL] using proper comma-below diacritics, NOT cedilla variants"
 - **ACTIUNE NECESARA:** Test local cu ș/ț/ă - fotografiaza rezultatul, noteaza daca model foloseste cedilla (gresit: ş/ţ U+015F/U+0163) vs comma-below (corect: ș/ț U+0219/U+021B)
 
-**"in the spirit of [font clasic]" pentru evitare copyright:**
+**"in the spirit of [font clasic]" pentru evitare copyright — REAJUSTAT (2026-05-23):**
 - Tehnica din baseline v4, logica din punct de vedere legal
-- Nu am gasit confirmare directa 2+ useri ca functioneaza mai bine decat specificarea font-ului direct
-- DE TESTAT: "in the spirit of Bodoni" vs "Bodoni style" vs "Bodoni" — care produce rezultat mai fidel
+- Community repos (magiccreator-ai + ZeroLu + Anil-matcha) NU folosesc niciodata "in the spirit of" — folosesc descriptori directi de era/echipament/stil
+- Exemple din practica confirmata: "retro 1950s travel poster style", "35mm film photography", "CCD compact camera direct on-camera flash", "1960s travel poster style", "Kodak Portra 400 film simulation"
+- CONCLUZIE: Era/equipment/style descriptors directe = tehnica comunitara confirmata. "In the spirit of" = netestat public
+- DE TESTAT: "in the spirit of Bodoni" vs "1920s Italian poster typeface" — care produce rezultat mai fidel si mai sigur din punct de vedere al copyright
 
 ### RESPINS
 
@@ -172,16 +177,20 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - "90s point-and-shoot camera quality" — YouMind GitHub
 - TEHNICA: specificarea unui device/era veche adauga imperfectii caracteristice = mai greu de identificat ca AI
 
+**Candid / amateur framing — PROMOVAT SOLID (2026-05-23):**
+- @phasE89 (magiccreator-ai GitHub): prompt in limba ceha cu "amatérská kompozice, momentka" (compozitie amator, instant) — pub Yorkshire
+- @WolfRiccardo (magiccreator-ai GitHub): "Realistic smartphone snapshot", "like an iPhone concert photo"
+- @Masimo_Blue (magiccreator-ai GitHub): "Keep the lines uneven, the coloring loose, and the overall drawing slightly amateur"
+- @mark_k (magiccreator-ai GitHub): "Handwritten clinical note...uneven spacing, natural ink pressure, casually written during a real medical visit"
+- CONFIRMAT de 4 handles independente in acelasi repo + YouMind (run anterior) = solid 5+ surse
+- FORMULA: `[framing]: snapshot, amateur composition, slightly uneven, authentic handheld look, not professionally staged`
+- Sursa: github.com/magiccreator-ai/awesome-gpt-image-2-prompts, activ mai 2026
+
 **Lighting realism:**
 - "harsh direct on-camera flash, specular highlights" — ZeroLu
 - "natural window light", "tungsten-vs-neon color mixing" — confirmat de multiple surse
 
 ### DE TESTAT
-
-**"Candid mood" / "amateur photo" framing:**
-- Mentionat in YouMind GitHub dar single-source ca tehnica specifica
-- Logica: reduce "posed" AI look
-- DE TESTAT: adaugare "candid, unposed, amateur photo aesthetic" la hero shots
 
 **Anonimizare cu censor blocks:**
 - YouMind GitHub: "opaque rectangular masks covering faces while preserving identity context"
@@ -230,16 +239,38 @@ Exemple verificate cu autori reali din ZeroLu/awesome-gpt-image (GitHub, colecti
 - Tehnica: cross-brand collab cu consistenta fortata explicit
 - Aplicare i-vory: collab campaign visual
 
+**7. Vintage Travel Poster — Amalfi Coast** — @WolfRiccardo (magiccreator-ai GitHub)
+- Prompt core: "Modern pencil illustration of Vintage travel poster illustration of the Amalfi Coast, Italy...1950s travel poster style, cinematic composition, high detail, screen print texture"
+- Tehnica: era descriptor direct ("1950s travel poster style") + medium ("pencil illustration") + texture ("screen print texture")
+- Aplicare i-vory: poster campaign European style; tehnica "era + medium + texture" in loc de "in the spirit of [font]"
+
+**8. Yorkshire Pub Scene (limba ceha)** — @phasE89 (magiccreator-ai GitHub)
+- Prompt core: "Amatérská fotka staršího páru sedícího v yorkshirské hospodě, amatérská kompozice, momentka" (Fotografie amator a unui cuplu mai in varsta asezat intr-un pub yorkshirian, compozitie amator, instant)
+- Tehnica: framing amator in limba natala + locatie europeana specifica = autenticitate maxima
+- Aplicare i-vory: lifestyle foto cu personaje reale in scena europeana autentica
+
+**9. Rough Colored-Pencil Plant Study** — @Masimo_Blue (magiccreator-ai GitHub)
+- Prompt core: "Create rough colored-pencil concept sketches of a small potted seedling...Keep the lines uneven, the coloring loose, and the overall drawing slightly amateur"
+- Tehnica: "slightly amateur" + "lines uneven" + "coloring loose" = anti-AI look pentru ilustratie
+- Aplicare i-vory: packaging illustration cu character artizanal
+
+**10. Letterpress Business Cards** — Morphic prompt library (testat, 2026)
+- Prompt core: "cream recycled cardstock, letterpress printed, subtle deboss on the logo"
+- Tehnica: material + tehnica de print + efect fizic = fidelitate packaging
+- Aplicare i-vory: packaging mockup cu print details realiste
+
 ### DE TESTAT
 
 **Prompturi carusel 3:4 vs hero 3:2 din baseline v4:**
 - Tehnica aspect ratio specifica mentionata in baseline dar nu am gasit confirmare din teste comunitare ca 3:4 vs 3:2 afecteaza semnificativ calitatea compositiei
 - DE TESTAT local
 
-**"Letterpress physics cu masuratori" din baseline v4:**
-- Tehnica specifica mentionata in baseline, interesanta pentru packaging print
-- Nu am gasit confirmare comunitara directa (poate exista in forumuri de print design)
-- DE TESTAT: "letterpress printed, subtle deboss, slight ink squish at edges, impression depth 0.3mm"
+**"Letterpress physics cu masuratori" — CONFIRMAT PARTIAL (2026-05-23):**
+- Morphic ChatGPT Images 2.0 prompt library (curated, tested): "cream recycled cardstock, letterpress printed, subtle deboss on the logo" — functioneaza
+- Morphic: "Brand name MERIDIAN & SONS debossed into the matte slate case lid" — functioneaza
+- Single-source (Morphic) dar curated + fiecare prompt testat si publicat; nu sunt 2 handles independente
+- VERDICT: partial confirmat (single curated source); nu ridicat inca la SOLID
+- DE TESTAT cu masuratori explicite: "letterpress printed, impression depth 0.3mm, slight ink squish at edges" — mai specific decat Morphic
 
 ### RESPINS
 
