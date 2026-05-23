@@ -1,6 +1,6 @@
 # RESEARCH.md — i-vory Studio Hook Intelligence
-Ultima actualizare: 2026-05-22
-Urmatoarea rulare: cauta delta dupa 2026-05-22
+Ultima actualizare: 2026-05-23
+Urmatoarea rulare: cauta delta dupa 2026-06-06
 
 ---
 
@@ -107,28 +107,61 @@ Surse:
 **Adaptare i-vory:**
 - "Cum am adus 3 clienti noi unui salon in 48h fara niciun leu pe reclame" — specific + dovada + beneficiu clar
 
-### KINETO / AVC / REABILITARE [incredere: MED — date de principiu, nu rate concrete per nisa]
+### KINETO / AVC / REABILITARE [incredere: MED-HIGH — benchmark nisa confirmat + insight nou cheie]
 
-**Ce functioneaza per surse:**
+**Date concrete noi (rulare 2, mai 2026):**
+- Healthcare Instagram carusel = 4.5% engagement rate (sursa: DashSocial benchmarks 2026)
+- Mental health & therapy nisa = 4.5-5.5% engagement Instagram — cel mai inalt per nisa medicala
+- PT / fitness transformation = 4-5% engagement (sursa: InfluenceFlow 2026)
+- Micro-conturi sanatate (<10K): 3-5% engagement, dublu fata de media generala
+- INSIGHT CHEIE: profesionistii medicali creeaza 34% din videoclipurile TikTok despre sanatate dar primesc doar 16.1% din engagement. Non-profesionistii = 83.9% engagement. → Tonul "pacient care se recupereaza" sau "apartinatorul" > tonul "expert" pentru reach. (sursa: studiu calitate continut stroke TikTok, Nature/Scientific Reports 2025)
+- 165M+ vizualizari TikTok pe continut ortopedic = cerere masiva; stroke recovery = sub-nisa cu volum in crestere (sursa: Nature 2025)
+
+**Ce functioneaza per surse (confirmat + actualizat):**
 - Journey continua (nu snapshot before/after) — update-uri de milestones pe parcursul recuperarii
 - "Fereastra de neuroplasticitate" — concept medical cu potential viral pentru educatie
 - Hook cu emotie + progres mic concret: "In saptamana 3 dupa AVC, pacientul nostru a reusit prima miscare a degetului"
-- Reels cu demonstrare tehnica (facilitare musculara, tapping) = tractiune pe Instagram conform cautarilor directe
+- Reels cu demonstrare tehnica (facilitare musculara, tapping) = tractiune pe Instagram
+- Clinician care face educatie directa cu pacientul = cel mai mare organic reach in healthcare (sursa: TrueFuture Media 2026)
+- POV apartinatorul/pacientul in loc de POV terapeut = engagement superior (insight din studiul Nature)
 
 **Adaptare i-vory:**
-- "Medicii i-au spus ca nu va mai merge. In 6 saptamani de kinetoterapie..." — emotie + intriga + promisiune
+- "Medicii i-au spus ca nu va mai merge. In 6 saptamani de kinetoterapie..." — emotie + intriga + promisiune (ton pacient, nu expert)
 - "Ce faci in primele 48h dupa AVC determina cat de bine te recuperezi. Iata ce putini stiu." — urgenta + gap informational
+- "Saptamana 1 din recuperare: nu stiam ca va fi atat de greu. Dar asta a schimbat totul." — journey format, save + share organic
 
-### LEGAL PENAL [incredere: LOW — surse insuficiente, date specifice lipsesc]
+Surse noi:
+- https://www.nature.com/articles/s41598-025-31464-6 (2025 — studiu TikTok stroke quality & engagement)
+- https://www.truefuturemedia.com/articles/digital-marketing-for-healthcare-practices-what-actually-works-in-2026 (2026)
+- https://influenceflow.io/resources/engagement-rate-benchmarks-by-creator-niche-2026-complete-guide-7/ (2026)
+- https://www.dashsocial.com/social-media-benchmarks/wellness-industry (2026)
 
-**Date gasite:** insuficiente pentru formule validate. Cautare viitoare necesara.
+### LEGAL PENAL [incredere: MED — date din EN, adaptare RO netestate; GOL inchis partial]
 
-**Principii adaptate din general care se pot testa:**
-- Mituri despre sistem vs. realitate (myth-busting performat bine in toate nichele cu autoritate)
-- "Ce sa faci in primele 24h dupa [eveniment legal]" — urgenta + utilitate directa
-- Cifra neasteptata din jurisprudenta: "X% din dosarele penale ajung in judecata fara martori relevanti"
+**Date concrete (surse EN verificate):**
+- Caesar Chukwuma (@iamcaez): 8.9M followeri TikTok, criminal defense + personal injury; formula dovedita = intrebare frecventa + scenariu ipotetic + solutie in 30 secunde (sursa: collegesoflaw.edu, dec. 2024)
+- Mike Mandell: 7M+ followeri TikTok, educatie drepturi legale + criminal defense; format = educatie drepturi + scenariu real (sursa: rankings.io 2026)
+- Erika Kullberg: 7.5M followeri, format "money lawyer" = nisa specifica + voce de om obisnuit, nu de expert distantat
+- Format cu cele mai multe saves in nisa legala: checklist de actiuni dupa eveniment legal; ex. "3 lucruri pe care legea ti le permite si nu stiai" (sursa: rankings.io/blog/law-firm-instagram-post-ideas 2026)
+- Reels pentru avocati = reach disproportionat chiar de pe conturi mici (algoritm favorizeaza scurt-video educativ)
 
-**Nota:** GOL ACTIV — date concrete lipsesc. Prioritate cautare urmatoarea rulare.
+**Formule dovedite in EN, de testat in RO:**
+1. `"Daca [situatie legala specifica], iata exact ce faci in urmatoarele 30 de minute"` — urgenta + utilitate imediata, drive saves
+2. `"Cel mai mare mit despre [aspect penal] pe care si avocatii il cred"` — dezamorsare mit, pozitioneaza autoritate
+3. `"[Cifra neasteptata]% din cei retinuti nu stiu ca au dreptul la [actiune specifica]"` — stat socant + gap informational
+4. `"Scenariu ipotetic: Esti oprit in trafic. Politistul iti cere telefonul. Ce faci?"` — implicare personala, raspunsul = hook
+
+**Adaptare i-vory (RO):**
+- "Ai fost retinut? Primele 3 lucruri pe care legea ti le garanteaza si pe care putini le stiu." — checklist practic, saves garantate
+- "Mitul nr. 1 din dreptul penal roman: ca tacerea te incrimineaza. Adevarul e invers." — myth-busting cu miza personala
+- Ton recomandat: ferm + uman, miza in prim-plan (ce se intampla CU TINE), zero jargon juridic
+
+**Nota:** Date din piata EN (SUA). Nisa juridica RO pe social media = sub-acoperita = oportunitate first-mover. Niciun creator RO dominant identificat inca.
+
+Surse:
+- https://rankings.io/blog/law-firm-instagram-post-ideas/ (2026)
+- https://rankings.io/blog/social-media-for-lawyers/ (2026)
+- https://www.collegesoflaw.edu/blog/2024/12/12/tiktok-lawyers/ (dec. 2024)
 
 ### E-COM PISICI [incredere: HIGH — date concrete TikTok Shop cu cifre reale]
 
@@ -184,10 +217,16 @@ Surse:
 
 ## G5 — STRUCTURI NATURALE IN ROMANA (nu engleza tradusa)
 
-### BEST PRACTICE [incredere: LOW-MED — principii universale aplicate la contextul RO; date specifice RO lipsesc]
+### BEST PRACTICE [incredere: MED — date concrete RO adaugate; studii de caz locale inca lipsesc]
 
-**Context piata:**
+**Context piata (actualizat rulare 2, mai 2026):**
 - TikTok Romania = medie 32.5h/luna per user — cea mai mare din regiune (sursa: LighthousePR 2026)
+- Micro-influenceri RO Instagram = 5-8% engagement rate (dublu fata de media globala de ~3%) (sursa: mocapp.net 2026)
+- Mid-tier RO (10K-100K): 3-5% engagement; macro RO: 2-4%; national: 1-2% (sursa: mocapp.net 2026)
+- TikTok engagement global 2026: 3.70% (+49% YoY) — platforma cu momentum maxim (sursa: Digital Information World, mar. 2026)
+- Instagram Romania: 5.4M+ useri, 60% din bugetele de influencer marketing merg pe Instagram (sursa: mocapp.net 2026)
+- Ore cu engagement maxim RO: TikTok = 13-15 + 20-22; Instagram = 17-20 weekdays (sursa: mocapp.net 2026)
+- Nise dominante RO: lifestyle (19.5%), muzica, beauty. Juridic + sanatate medicala = nise SUB-ACOPERITE → oportunitate first-mover pentru i-vory clienti
 - Continutul tradus literal din engleza suna fals; audienta romana are sensibilitate la ton artificial
 - Autenticitate > polish in Romania — tonul de "expert care vorbeste cu prietenul" performat mai bine decat tonul corporatist
 
@@ -236,11 +275,15 @@ Surse:
 - https://www.lighthousepr.ro/news/social-media-trends-for-2026-what-brands-and-agencies-in-romania-need-to-know (2026)
 - https://www.peinterneti.ro/p/e-2026-anul-cand-social-media-moare (2026)
 - Principii adaptate din: https://planable.io/blog/social-media-hooks/ (2026)
+- https://mocapp.net/blog/influencer-budgets-romania-2026/ (2026) — date noi rulare 2
+- https://mocapp.net/blog/influencer-marketing-romania-europe/ (2026) — date noi rulare 2
+- https://www.digitalinformationworld.com/2026/03/2026-social-media-benchmark-tiktok.html (mar. 2026) — date noi rulare 2
 
 ---
 
 ## GOLURI ACTIVE (prioritate urmatoare rulare)
 
-- G3 / Legal penal: zero date concrete cu engagement real; cautare focusata necesara pe creatori din nisa juridica
-- G5 / Romana: lipsesc studii de caz sau exemple cu cifre reale din piata locala; necesita analiza de conturi RO cu tractiune
-- G3 / Kineto+AVC: lipsesc rate de engagement concrete, doar principii generale
+- G3 / Legal penal: date EN adaugate (MED); GOL RAMAS = creatori RO activi in nisa juridica pe social media + engagement local real; nicio persoana identificata inca
+- G3 / Marketing/SMB: lipsesc date per-nisa specifice (rate de engagement, exemple de conturi SMB RO cu tractiune)
+- G5 / Romana: benchmark-uri RO adaugate; GOL RAMAS = studii de caz locale concrete (conturi RO cu +50K, nise sanatate sau juridic, hook-uri cu tractiune verificabila)
+- G3 / Kineto+AVC: benchmark healthcare adaugat; GOL RAMAS = conturi RO de kineto/AVC cu date reale de engagement

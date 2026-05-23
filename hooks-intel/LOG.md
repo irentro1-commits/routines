@@ -3,6 +3,43 @@ Ordinea: cel mai nou sus.
 
 ---
 
+## [2026-05-23] RULARE 2 — DELTA PE GOLURI ACTIVE
+
+**Stare anterioara:** 3 goluri active (legal penal, kineto rate, G5 date RO)
+
+**Delta adaugat la RESEARCH.md:**
+
+G3 / Legal penal (GOL → MED):
+- Caesar Chukwuma @iamcaez: 8.9M TikTok, formula = intrebare frecventa + scenariu ipotetic + solutie 30s
+- Mike Mandell: 7M+, educatie drepturi + criminal defense
+- 4 formule de testat in RO: checklist post-arrest, myth-busting penal, cifra socanta + gap, scenariu ipotetic personal
+- Insight structura: urgenta personala + utilitate imediata = drive saves in nisa legala
+- Nisa juridica RO social media = sub-acoperita, first-mover opportunity
+- Surse: rankings.io 2026, collegesoflaw.edu dec.2024
+
+G3 / Kineto+AVC (GOL PARTIAL → MED-HIGH):
+- Benchmark confirmat: healthcare carusel Instagram = 4.5% ER; therapy = 4.5-5.5%; PT/fitness = 4-5%
+- INSIGHT CHEIE adaugat: profesionisti medicali = 34% continut dar 16.1% engagement; non-profesionisti = 83.9% engagement → tonul "pacient/apartinatorul" > tonul "expert" pentru reach
+- 165M+ vizualizari TikTok pe continut ortopedic = cerere confirmata
+- Formula noua: journey format din POV pacient/apartinatorul, nu POV terapeut
+- Surse: Nature/Scientific Reports 2025, InfluenceFlow 2026, DashSocial 2026
+
+G5 / Romana (date noi concrete):
+- Micro-influenceri RO: 5-8% engagement Instagram (confirmat mocapp.net 2026)
+- Ore maxim engagement RO: TikTok 13-15 + 20-22; Instagram 17-20 weekdays
+- TikTok global: +49% YoY engagement in 2026 → platforma cu momentum
+- Nise dominante RO: lifestyle, muzica, beauty; juridic+sanatate = sub-acoperite
+- Surse: mocapp.net 2026, Digital Information World mar.2026
+
+**Goluri inchise:** Legal penal (de la GOL la MED); Kineto rate (de la GOL PARTIAL la MED-HIGH)
+**Goluri ramase:** Legal RO specific (creatori locali), SMB date RO, studii de caz conturi RO
+**Surse noi utilizate:** 7 URL-uri, 2024-2026
+**Nivel incredere delta:** MED pentru legal (date EN, RO netestat); MED-HIGH pentru kineto (studiu stiintific + benchmark); MED pentru G5 date RO
+
+**Urmatoarea rulare recomandata:** dupa 2026-06-06 sau la cerere pe gol specific
+
+---
+
 ## [2026-05-22] RULARE 1 — INITIALIZARE COMPLETA
 
 **Stare anterioara:** gol (prima rulare, folder creat de la zero)
