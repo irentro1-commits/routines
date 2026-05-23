@@ -3,6 +3,40 @@
 
 ---
 
+## [2026-05-23] RULARE 2 - Delta post-Google I/O + goluri rezolvate
+
+**Status:** 5 goluri din LOG precedent investigate. 7 delta nou adaugate.
+
+**Surse consultate:** 9 cautari web, ~35 URL-uri unice, mai 2026 (focus 19-23 mai).
+
+**Delta adaugat:**
+
+### G3 - Camera/miscare:
+- Clarificat Runway vs Kling pentru dental: Kling=single-shot procedura (audio nativ, 4K), Runway=scene complexe 3+ elemente (Motion Brush per-pixel)
+- Adaugat WAN 2.7 R2V la DE TESTAT
+
+### G4 - Cost:
+- NOU MODEL: WAN 2.7 (Alibaba) = #1 pe leaderboard text-to-video (arena score 1762, mai 2026). Pret: $0.08-0.12/sec. 4 moduri in 1: T2V+I2V+R2V+edit. Max 15 sec.
+- NOU TIER: Veo 3.1 Lite = $0.05-0.08/sec (tier buget anuntat mai 2026, sub Fast)
+- NOU MODEL: Gemini Omni Flash anuntat Google I/O 19-20 mai 2026. API nelive inca. Proiectat ~$0.05-0.08/sec. Max ~10 sec clips.
+- Higgsfield pricing confirmat: Starter $15/mo, Plus $39/mo, Ultra $99/mo (credit system, nu specializat medical)
+- Tabel actualizat cu toate modelele noi
+
+### G5 - Dental:
+- INCHIS GOL: Seedance 2.0 romana = NU suportata. Cele 8 limbi: EN, ZH, JP, KO, ES, FR, DE, PT. Pentru explainere in romana → Veo 3.1 sau Gemini Omni (cand API live).
+- NOU: Gemini Omni recomandat pentru dental educational - demo oficial: claymation anatomie (proteina folding), text on-screen curat, consistenta frame-to-frame
+- NOU: Kling castiga categoria "anatomy" in benchmark Vidguru VEO 3.1 vs Kling v2.6 → confirma Kling I2V ca optim pentru macro dental
+- Higgsfield RESPINS pentru medical: nu e specializat, pret similar Kling fara avantaje claire
+
+**Goluri ramase (de investigat la urmatoarea rulare):**
+- [ ] Veo 3.1 physics real test pentru spray/apa (detartraj)
+- [ ] Kling Motion Transfer pe miscare instrument chirurgical (test propriu)
+- [ ] Prompt "cross-section view dental anatomy" - rezultate reale Kling vs Veo
+- [ ] Gemini Omni API live? pret final confirmat (urmareste saptamanile urmatoare)
+- [ ] WAN 2.7 R2V (reference-to-video) - testat pentru personaj consistent in dental explainer
+
+---
+
 ## [2026-05-22] RULARE INITIALA - Prima populare completa
 
 **Status:** Prima rulare, folder inexistent anterior. Creat de la zero.
