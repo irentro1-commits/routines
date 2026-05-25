@@ -1,6 +1,6 @@
 # RESEARCH.md — i-vory Studio Hook Intelligence
-Ultima actualizare: 2026-05-22
-Urmatoarea rulare: cauta delta dupa 2026-05-22
+Ultima actualizare: 2026-05-25
+Urmatoarea rulare: cauta delta dupa 2026-05-25
 
 ---
 
@@ -107,28 +107,50 @@ Surse:
 **Adaptare i-vory:**
 - "Cum am adus 3 clienti noi unui salon in 48h fara niciun leu pe reclame" — specific + dovada + beneficiu clar
 
-### KINETO / AVC / REABILITARE [incredere: MED — date de principiu, nu rate concrete per nisa]
+### KINETO / AVC / REABILITARE [incredere: MED-HIGH — rate concrete obtinute, formule de principiu validate]
+
+**Date concrete (nou adaugate 2026-05-25):**
+- Healthcare Instagram: rata de engagement 3.89% cu frecventa de 2 posturi/saptamana (sursa: Dash Social + Improvado, 2026)
+- Healthcare Instagram carusel = format cu cea mai buna performanta in nisa (sursa: Improvado 2026)
+- Healthcare TikTok: 1.03% engagement rate — mult sub media platformei de 3.7% (sursa: TokPortal 2026)
+- Health & Wellness reach-based engagement: 8.1% pe Instagram, cel mai ridicat din categoria wellness (sursa: Dash Social 2026)
+- Concluzie operationala: Instagram > TikTok pentru kineto/AVC; carusel = format prioritar; 2 posturi/saptamana = optim
 
 **Ce functioneaza per surse:**
 - Journey continua (nu snapshot before/after) — update-uri de milestones pe parcursul recuperarii
 - "Fereastra de neuroplasticitate" — concept medical cu potential viral pentru educatie
 - Hook cu emotie + progres mic concret: "In saptamana 3 dupa AVC, pacientul nostru a reusit prima miscare a degetului"
 - Reels cu demonstrare tehnica (facilitare musculara, tapping) = tractiune pe Instagram conform cautarilor directe
+- TikTok challenge "30 de zile de mobilitate" — format interactiv cu comunitate; relevant si pentru recuperare post-AVC
 
 **Adaptare i-vory:**
 - "Medicii i-au spus ca nu va mai merge. In 6 saptamani de kinetoterapie..." — emotie + intriga + promisiune
 - "Ce faci in primele 48h dupa AVC determina cat de bine te recuperezi. Iata ce putini stiu." — urgenta + gap informational
 
-### LEGAL PENAL [incredere: LOW — surse insuficiente, date specifice lipsesc]
+### LEGAL PENAL [incredere: MED — tipologia de hook validata pe piata EN, formule adaptabile RO; rate concrete per nisa inca lipsesc]
 
-**Date gasite:** insuficiente pentru formule validate. Cautare viitoare necesara.
+**Date concrete (nou adaugate 2026-05-25):**
+- Continut educational > promotional pentru avocati penalisti pe toate platformele (sursa: LawRank, Scorpion, GrowLaw 2026)
+- Reels de 30 secunde cu o singura intrebare specifica + raspuns direct = format cu cea mai buna tractiune per surse multiple
+- Carusel 5-7 slide-uri = optim pentru ghiduri pas-cu-pas ("drepturile tale daca esti retinut")
+- Avocatii care posteaza regulat pe Instagram primesc mai multe cereri de consultatie vs. cei fara prezenta digitala (sursa: Rankings.io 2026 — fara cifra exacta)
 
-**Principii adaptate din general care se pot testa:**
-- Mituri despre sistem vs. realitate (myth-busting performat bine in toate nichele cu autoritate)
-- "Ce sa faci in primele 24h dupa [eveniment legal]" — urgenta + utilitate directa
-- Cifra neasteptata din jurisprudenta: "X% din dosarele penale ajung in judecata fara martori relevanti"
+**Formula hook dovedita pentru legal penal:**
+- Pattern: `"Daca esti [situatie specifica], nu face [actiune comuna gresita]"` — audience call-out + promisiune de informatii critice
+- Pattern: `"Stii ce drept ai daca [eveniment]? Majoritatea oamenilor nu stiu."` — implica ignoranta fara a ataca
+- Pattern: `"[Cifra neasteptata] din [situatie legala]. Iata ce putini iti spun."` — stat socant + gap
 
-**Nota:** GOL ACTIV — date concrete lipsesc. Prioritate cautare urmatoarea rulare.
+**Exemple cu tractiune documentata (piata EN, adaptabile RO):**
+- "Poti refuza o perchezitie fara mandat? Raspunsul corect te poate salva." — drept constitutional simplu, curiosity gap
+- "3 lucruri pe care sa NU le spui la audiere. Niciodata." — lista negativa + urgenta
+- "Ce se intampla daca nu ai avocat prezent la primele 24h de detentie?" — intrebare cu miza personala mare
+- "Cel mai mare mit despre dreptul la tacere. Il cunosti gresit." — myth-busting + implica gresala curenta
+
+**Adaptare i-vory:**
+- "Ai fost retinut. Ce faci in urmatoarele 30 de minute poate schimba totul." — urgenta + miza + actiune
+- "Politia ti-a cerut sa dezblochezi telefonul. Ai dreptul sa refuzi. Iata cum." — educational + actionabil + surpriza legala
+
+**Nota:** Rate de engagement concrete pentru nisa legal penal RO/EN nu au aparut in surse deschise. GOL PARTIAL — tipologia validata, cifre lipsesc.
 
 ### E-COM PISICI [incredere: HIGH — date concrete TikTok Shop cu cifre reale]
 
@@ -154,6 +176,13 @@ Surse:
 - https://www.accio.com/business/tiktok_pet_trends (2026)
 - https://influencermarketinghub.com/tiktok-shop-campaigns-pet-brands/ (2026)
 - https://thewritersblockph.com/2025/01/13/how-physiotherapists-can-use-instagram-to-showcase-patient-recovery-stories/ (ian. 2025)
+- https://www.dashsocial.com/social-media-benchmarks/instagram (2026) — rate healthcare Instagram
+- https://improvado.io/blog/social-media-benchmarking (2026) — benchmark per industrie
+- https://www.tokportal.com/data/tiktok-engagement-benchmarks (2026) — rate healthcare TikTok
+- https://lawrank.com/instagram-for-lawyers/ (2026) — formule hook legal
+- https://rankings.io/blog/law-firm-instagram-post-ideas/ (2026) — exemple hook legal
+- https://ymmdigital.com/social-media-marketing-for-criminal-defense-lawyers-what-platforms-work-best/ (2026)
+- https://yoyofumedia.com/tiktok-for-physical-therapists/ (2026) — kineto TikTok strategie
 
 ---
 
@@ -186,8 +215,14 @@ Surse:
 
 ### BEST PRACTICE [incredere: LOW-MED — principii universale aplicate la contextul RO; date specifice RO lipsesc]
 
-**Context piata:**
+**Context piata (actualizat 2026-05-25):**
 - TikTok Romania = medie 32.5h/luna per user — cea mai mare din regiune (sursa: LighthousePR 2026)
+- Instagram Romania: 6M+ utilizatori activi in 2026 (sursa: Trifu Media 2026)
+- TikTok Romania: 4.2M+ utilizatori activi; cel mai rapid crescator sub 35 ani (sursa: multiple, 2026)
+- Piata influencer marketing Romania = ~€130M in 2026 (sursa: MOCAPP 2026)
+- Ore optime postare Instagram: 5–8 PM zilele de lucru (sursa: multiple RO, 2026)
+- Ore optime postare TikTok: 1–3 PM si 8–10 PM (sursa: multiple RO, 2026)
+- Continut in romana = 40–60% mai bun decat continut in engleza [INCREDERE SCAZUTA — cifra a aparut in rezumate de cautare dar sursa originala nu a putut fi verificata direct; principiul e valid, cifra e orientativa]
 - Continutul tradus literal din engleza suna fals; audienta romana are sensibilitate la ton artificial
 - Autenticitate > polish in Romania — tonul de "expert care vorbeste cu prietenul" performat mai bine decat tonul corporatist
 
@@ -236,11 +271,13 @@ Surse:
 - https://www.lighthousepr.ro/news/social-media-trends-for-2026-what-brands-and-agencies-in-romania-need-to-know (2026)
 - https://www.peinterneti.ro/p/e-2026-anul-cand-social-media-moare (2026)
 - Principii adaptate din: https://planable.io/blog/social-media-hooks/ (2026)
+- https://trifumedia.com/blog/marketing-instagram-afaceri-mici (2026) — date utilizatori RO
+- https://mocapp.net/blog/cat-costa-o-campanie-cu-influenceri-2026/ (2026) — piata influencer Romania
 
 ---
 
 ## GOLURI ACTIVE (prioritate urmatoare rulare)
 
-- G3 / Legal penal: zero date concrete cu engagement real; cautare focusata necesara pe creatori din nisa juridica
-- G5 / Romana: lipsesc studii de caz sau exemple cu cifre reale din piata locala; necesita analiza de conturi RO cu tractiune
-- G3 / Kineto+AVC: lipsesc rate de engagement concrete, doar principii generale
+- G3 / Legal penal: tipologia validata (2026-05-25), dar rate concrete de engagement pentru nisa juridica lipsesc; cautare viitoare pe conturi avocati cu tractiune dovedita (followeri reali + date de engagement)
+- G5 / Romana: cifra "40-60% mai bun in romana" necesita sursa verificabila; cautare pe studii de caz concrete cu conturi RO + cifre reale (saves, shares, reach)
+- G3 / Marketing/SMB: principii generale documentate, lipsesc date per-nisa cu cifre reale din piata romaneasca
