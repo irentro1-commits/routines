@@ -3,6 +3,22 @@
 
 ---
 
+## [2026-05-25] — RULARE 2 (delta fata de 2026-05-22)
+
+**#1 IMAGINE**: GPT Image 2 (high) — Elo 1339 (AA) — neschimbat
+**#1 VIDEO fara audio**: HappyHorse-1.0 — Elo 1357 (AA) — neschimbat
+**#1 VIDEO cu audio**: Dreamina Seedance 2.0 — Elo 1213 (AA) — acum solo #1 (HappyHorse 1212)
+
+**Delta imagine**: grok-imagine-image-quality (Elo 1210, xAI) a urcat la #5, scoatand FLUX.2 [max] (1196) din top 5.
+**Delta video cu audio**: Seedance 2.0 s-a separat de HappyHorse: 1213 vs 1212 (anterior egale la 1211). Minor dar tendinta clara.
+**Delta open-weight video**: LTX-2.3 Fast (Elo 973) = nou #1 open-weight cu audio (LTX-2.3 lansat 5 mar 2026, 22B, audio nativ).
+
+**Modele noi notate (G4)**: Gemini Omni Flash (Google I/O 19 mai, video, nu in arena inca), Veo 3.1 Lite (API 31 mar, $0.05/sec), Runway Gen-4 audio update (3 mai 2026).
+
+**Surse**: artificialanalysis.ai/image/leaderboard + artificialanalysis.ai/video/leaderboard + arena.ai
+
+---
+
 ## [2026-05-22] — RULARE INITIALA (punctul 0)
 
 **#1 IMAGINE**: GPT Image 2 (high) — Elo 1339 (AA) / 1512 (Arena.ai, preliminar)
