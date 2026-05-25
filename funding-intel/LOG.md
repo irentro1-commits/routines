@@ -3,6 +3,46 @@
 
 ---
 
+## [2026-05-25] — RUN #2 (incremental, delta fata de 2026-05-22)
+
+**Surse verificate**: startupcafe.ro, mfe.gov.ro, a-mcc.eu, cultura.ro, regiocentru.ro, adrnordest.ro, oportunitati-ue.gov.ro, fonduri-structurale.ro
+
+### !! ALERTA ACTIVA — DEADLINE < 30 ZILE !!
+
+**A1 — Start-Up Nation 2026 Sesiunea 1: DEADLINE 29.05.2026 (4 ZILE, ora 20:00)**
+- Suma: 250.000 lei (~50k EUR), 90% nerambursabil; firme noi-infiintate
+- Sesiunea 2 urmeaza dupa inchidere
+- Sursa: mfe.gov.ro / economie.gov.ro (verificat 2026-05-25)
+
+### SCHIMBARI DE STATUS (fata de run anterior)
+
+| Ce s-a schimbat | Vechi | Nou | Sursa |
+|----------------|-------|-----|-------|
+| CREA-MEDIA-2026-DEVSLATE | listat DESCHIS (eroare!) | INCHIS din 03.12.2025 | a-mcc.eu, EU Funding Portal |
+| PNRR C9.I3 deadline implementare | 29.05.2026 | **30.06.2026** (Ordin MIPE 607/2026) | mfe.gov.ro, startupcafe.ro |
+| PNRR C9.I3 alert status | ALERT <30 zile | Iminent — 36 zile (nu mai e sub 30) | — |
+| Schema cultura minimis | consultare activa | Post-consultare (10.05.2026 inchisa); apel nelansat inca | ceccarbusinessmagazine.ro |
+| Regio Nord-Est pilot IMM | status neclar | INCHIS pt aplicatii noi; redeschis doar pt preselectati | fonduri-structurale.ro |
+
+### APELURI NOI ADAUGATE
+
+| ID | Apel | Status | Directie | Deadline | Suma |
+|----|------|--------|----------|----------|------|
+| U5 | PR Nord-Est — Transformarea Digitala IMM Apel 2 | URMEAZA (ghid consultat ian-mar 2026, lansare necunoscuta) | [C] | TBD | 20.000–120.000 EUR |
+
+### FARA SCHIMBARI CONFIRMATE
+- PR Centru 2.2 Apel 2 (U1): CONFIRMAT URMEAZA Iun-Aug 2026
+- PR BI 1.7 (U2): CONFIRMAT URMEAZA Sept 2026
+- Start-Up Nation Sesiunea 2 (U3): CONFIRMAT IN PREGATIRE
+
+### Goluri ramase de verificat
+- [ ] PR Nord-Est Apel 2 — data exacta lansare MySMIS
+- [ ] Schema cultura minimis — data publicare MO + lansare apel
+- [ ] Start-Up Nation Sesiunea 2 — data deschidere exacta
+- [ ] Creative Europe MEDIA H2 2026 — apeluri noi?
+
+---
+
 ## [2026-05-22] — RUN INITIAL (punct zero)
 
 **Folder funding-intel creat. Prima rulare completa.**
