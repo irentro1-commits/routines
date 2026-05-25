@@ -1,5 +1,5 @@
 # RESEARCH.md — i-vory Studio Design Intel
-_Ultima actualizare: 2026-05-22_
+_Ultima actualizare: 2026-05-25_
 
 ---
 
@@ -12,6 +12,7 @@ _Ultima actualizare: 2026-05-22_
 - **Paleta 2026 castigatoare:** neutrale calde (terracotta, clay, warm stone) ca baza + pop strategic unic (safran/saffron sau periwinkle). Soft neutrals + un singur accent = mai usor de repetat in conditii variate de lumina, perceput ca premium. (sursa: joliciatype.com, envato.com/learn/color-trends, 2026)
 - **Formula specifica dovedita:** fundal crem / nude + headline forest-green; portocaliu ars (burnt orange) DOAR pentru accent de atentie, nu ca paleta principala. (sursa: ardenatech.com, extras snippet)
 - **Sage verde** evolueaza spre nuante mai calde (khaki/dusty) in 2026 — mai compatibil cu terracotta, mai usor de parat. (sursa: oliveetoriel.com, 2026)
+- **Paleta specifica high-engagement 2026:** Cloud Dancer white (fundal ultra-neutru) + UN singur accent din lista: Transformative Teal, Electric Fuchsia, Blue Aura, Amber Haze, sau Jelly Mint. Formula: neutralitate totala la baza = accentul sare. (sursa: socialinsider.io/social-media-benchmarks/instagram, 2026-Q1)
 
 ### DE TESTAT
 - Contrast luminanta RIDICAT in primul slide al carouselului (nu in slide-urile interioare) — testare A/B cu versiune monocroma + accent neon vs. versiune all-neutral.
@@ -34,6 +35,7 @@ _Ultima actualizare: 2026-05-22_
 - **Fonturi heavy/display in trend 2026:** "Poster" (serif greu, impact ridicat) lansat de Instagram insusi in 2024-2025 pentru short-form. Condensed + heavy = stop-rate mai bun decat proporti normale. (sursa: accio.com, 2026)
 - **Text diagonal 15-45 grade** — rompe gridul, creeaza miscare in imaginea statica, atrage ochiul natural. (sursa: overlaytext.com, extras snippet)
 - **Non-standard Unicode / caractere custom in headline** = +22% CTR fata de fonturi sistem standard. (sursa: Digital Aesthetics Institute 2025, citat in snippet cautare)
+- **Text/caption in treimea superioara (primele 30% din inaltime):** vizibil in crop-ul 1:1 din feed fara a deschide postul. Hook-ul trebuie sa fie lizibil in thumbnail — altfel stop-rate-ul e zero inainte de orice. (sursa: attentioninsight.com, overlaytext.com, 2026)
 
 ### DE TESTAT
 - Oversized headline care iese partial din cadru (cropped text) — semnalizeaza "mai e ceva" si creste swipe-ul.
@@ -56,6 +58,14 @@ _Ultima actualizare: 2026-05-22_
 - **Ritm vizual in carusel:** repeti acelasi layout de baza pe fiecare slide + schimbi DOAR elementul accent (culoare, imagine) — creierul proceseaza mai repede, swipe-velocity creste. (sursa: ardenatech.com, extras snippet)
 - **Structura high-save:** slide 1 = hook vizual bold, slide 2-N = "reveal" progresiv (fiecare slide rezolva un mister creat de anteriorul), slide final = call-to-save explicit sau rezumat salvabil. (sursa: krumzi.com, 2026)
 - **Continut educational/infografic** genereaza saves sistematic — "salvat pentru mai tarziu" este trigger-ul principal. (sursa: truefuturemedia.com, 2026)
+- **Cifre reale Q1 2026 (sample 52M+ posts — buffer.com State of Social 2026; confirmat socialinsider.io):**
+  - Carousel: 0.52% engagement rate mediu, Reels: 0.50%, single image: 0.35%
+  - Carousel = 2-3x mai multe saves decat orice alt format
+  - Carouselul bate Reels-ul la engagement cu 12% — inversul anilor precedenti
+- **5-7 slide-uri = sweet spot save-rate:** 3.4x mai multe saves si 2.1x mai multe share-uri decat imagine statica. (sursa: trymypost.com/blog/instagram-carousel-algorithm-2026-guide, Q1 2026)
+- **8-10 slide-uri depasesc 2% engagement rate** — limita superioara platforma. Daca ai continut educational cu logica naturala, umple caruselul. Sub 5 slide-uri lasa valoare pe masa. (sursa: carouselli.com/blog/instagram-carousel-engagement, 2026)
+- **Mixed-format carousel (imagine + video in acelasi carusel):** 2.33% engagement vs. 1.80% image-only = +29%. Un singur slide video intr-un carusel de imagini ridica semnificativ performanta. (sursa: carouselli.com, 2026-Q1)
+- **Views = metrica de display; saves + shares = metrica de distributie reala.** Instagram a trecut la "Views" ca indicator principal afisat, dar algoritmul distribuie continut pe baza saves + shares. Proiectezi pentru saves, nu pentru views. (sursa: hootsuite.com/instagram-algorithm, sproutsocial.com, 2026)
 
 ### DE TESTAT
 - Layout "bleeding edge": un element (text sau grafic) care trece partial in spatiul urmatorului slide — obliga swipe-ul.
@@ -81,6 +91,7 @@ _Ultima actualizare: 2026-05-22_
   (sursa: ardenatech.com + inceptly.com, extras snippet)
 - **Regula: commit full la contrast.** Versiunile care "aproape au" un element surpriza dar il modereaza nu functioneaza — sau e bold sau nu e. (sursa: extras snippet cautare 2026)
 - **"Dopamine pop":** un singur element saturat intr-o paleta altfel muta/calma = mai eficient decat intreaga imagine saturata. (sursa: thedecorholic.com, joliciatype.com, 2026)
+- **Originalitate = semnal de ranking direct in 2026.** Instagram de-rankeaza explicit: repost-uri, continut cu watermark TikTok, continut reciclat fara valoare adaugata. Elementul neasteptat nu e doar scroll-stopper — e si semnal ca continutul e original, ceea ce amplifica distributia organica. (sursa: meetedgar.com/blog/instagram-algorithm-updates, heropost.io/instagram-algorithm-changes-2026, 2026)
 
 ### DE TESTAT
 - **Out-of-palette single element:** pe un design cu paleta terracotta/crem, introduci UN element in albastru electric sau verde neon — masurati stop-rate vs. versiunea fara.
@@ -94,7 +105,7 @@ _Ultima actualizare: 2026-05-22_
 
 ---
 
-_Surse principale consultate (snippets, acces direct blocat 403):_
+_Surse principale consultate:_
 - colorkuler.com/blog/2026-instagram-color-trends (2026-05)
 - aestheticsofphotography.com/viral-visual-grammar-us-instagram-2026 (2026)
 - instacarousel.com/blog/instagram-carousel-guide-2026 (2026)
@@ -107,3 +118,13 @@ _Surse principale consultate (snippets, acces direct blocat 403):_
 - cueballcreatives.com/blog/instagram-fonts (2026)
 - truefuturemedia.com/articles/instagram-carousel-strategy-2026 (2026)
 - krumzi.com/blog/15-instagram-carousel-ideas-2026 (2026)
+- socialinsider.io/social-media-benchmarks/instagram (2026-Q1)
+- buffer.com/resources/state-of-social-media-engagement-2026 (2026, 52M+ posts)
+- trymypost.com/blog/instagram-carousel-algorithm-2026-guide (2026-Q1)
+- carouselli.com/blog/instagram-carousel-engagement (2026-Q1)
+- storrito.com/resources/how-instagram-carousels-beat-reels-for-engagement-in-2026 (2026)
+- hootsuite.com/instagram-algorithm (2026)
+- sproutsocial.com/insights/instagram-algorithm (2026)
+- meetedgar.com/blog/instagram-algorithm-updates (2026)
+- heropost.io/instagram-algorithm-changes-2026 (2026)
+- attentioninsight.com/how-visual-hierarchy-shapes-user-engagement (2026)
