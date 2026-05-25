@@ -3,6 +3,49 @@
 
 ---
 
+## [2026-05-25] RULARE #2 - Delta goluri identificate la R#1
+
+**Status:** 5 goluri de umplut din R#1. 5/5 umplute. 1 bonus (WAN 2.7).
+
+**Surse noi consultate:** 14 cautari web, ~40 URL-uri, mai 2026.
+
+**Delta adaugat:**
+
+### G1 - Structura prompt:
+- WAN 2.7 (Alibaba, open source) = NOU: first+last frame control → util dental (start=dinte intact, end=tratat)
+- V2V editing cu instructiuni text natural
+- #1 leaderboard mai 2026 (arena score 1762) - depaseste Kling si Veo
+- Sursa: MindStudio WAN 2.7 guide 2026
+
+### G3 - Camera/miscare:
+- Kling Motion Control 3.0: occlusion recovery NOU → mana acoperind instrument reconstituita logic (KEY pentru dental)
+- Motion Transfer: 30 sec clipuri continuu (vs 15 sec anterior)
+- Runway Gen-4.5 vs Kling 3.0 CLARIFICAT:
+  → Runway: #1 fizica lichide (Elo 1247), audio post-productie, 30-90 sec generare
+  → Kling: audio nativ, 4K nativ, cost mai mic, workflow integrat
+  → VERDICT dental: Runway pentru detartraj/spray, Kling pentru rest
+
+### G4 - Cost:
+- Higgsfield GOL UMPLUT: Starter $15/mo (200cr), Plus $39/mo (1000cr), Ultra $99/mo (3000cr)
+- Kling 3.0 pe Higgsfield = ~6 credite/video
+- VERDICT: Higgsfield are sens DOAR pentru mix multi-model; Kling-only = direct mai ieftin ($10/mo nelimitat)
+- WAN 2.7 open source = cost 0 cu GPU local (fara API comercial simplu)
+
+### G5 - Dental / Romana:
+- CLARIFICAT: romana NU e suportata nativ in niciun model major (Seedance, Kling O3, Veo 3.1)
+- SOLUTIE: ElevenLabs Multilingual v2 + video muted → sync in post
+- Workflow dental actualizat: Varianta A (I2V Kling) + Varianta B (WAN 2.7 first+last frame)
+- Romana audio GOL INCHIS.
+
+**Goluri ramase (de investigat la urmatoarea rulare):**
+- [ ] WAN 2.7 first+last frame testata real pe procedura dentara (cine a testat in comunitate?)
+- [ ] Runway Gen-4.5 Motion Brush testat pe detartraj (spray + instrument + dinte)
+- [ ] "cross-section dental anatomy" prompt - rezultate concrete din teste reale
+- [ ] ElevenLabs Multilingual v2 vs Eleven v3 pentru romana (calitate, cost, latenta)
+- [ ] Higgsfield Plus $39 = value real vs abonamente separate (cineva a comparat?)
+
+---
+
 ## [2026-05-22] RULARE INITIALA - Prima populare completa
 
 **Status:** Prima rulare, folder inexistent anterior. Creat de la zero.
