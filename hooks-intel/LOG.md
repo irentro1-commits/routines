@@ -3,6 +3,47 @@ Ordinea: cel mai nou sus.
 
 ---
 
+## [2026-05-25] RULARE 2 — DELTA PE GOLURI ACTIVE
+
+**Stare anterioara:** RESEARCH.md complet pentru G1, G2, G4; goluri la G3/Legal, G3/Kineto, G5/Romana
+
+**Delta adaugat la RESEARCH.md:**
+
+G3 / Legal penal (LOW → MED):
+- Formula hook validata pentru avocati penalisti: audience call-out specific + intrebare cu miza + raspuns in 30s
+- 4 exemple de hook cu tractiune documentata (piata EN, adaptabile RO)
+- 2 adaptari directe pentru vocea i-vory in romana
+- Confirmat: educational > promotional, Reels 30s + carusel ghid = format optim
+- RAMANE GOL: rate concrete de engagement pentru nisa juridica nu exista in surse deschise
+- Surse: LawRank, Rankings.io, YMMDigital, GrowLaw (2026)
+
+G3 / Kineto+AVC (MED → MED-HIGH):
+- Rate concrete obtinute: Healthcare Instagram = 3.89% (2 posturi/saptamana), carusel = format cel mai performant
+- Healthcare TikTok = 1.03% (sub media de 3.7% a platformei) → Instagram prioritar pentru aceasta nisa
+- Health & Wellness reach-based: 8.1% (cel mai ridicat din wellness)
+- TikTok challenge "30 zile mobilitate" = format interactiv relevant pentru recuperare
+- Surse: Dash Social, Improvado, TokPortal (2026)
+
+G5 / Romana:
+- Date concrete piata RO: 6M+ Instagram, 4.2M TikTok, €130M piata influencer
+- Ore optime confirmate: Instagram 5-8 PM weekdays; TikTok 1-3 PM si 8-10 PM
+- Cifra "40-60% mai bun in romana" marcata cu INCREDERE SCAZUTA — sursa originala neverificabila
+- Surse: Trifu Media, MOCAPP (2026)
+
+**Surse noi adaugate:** 9 URL-uri (toate 2026)
+**Surse respinse:** 0 halucinate, dar claim "DUI attorney 500k followers" din summary de cautare nu a putut fi verificat cu cont real → exclus
+**Blocaje tehnice:** WebFetch 403 pe toate paginile target (10/10 blocked) — date extrase exclusiv din summaries de cautare
+**Nivel incredere delta:** MED pentru legal si kineto (rate lipsesc pentru legal); MED pentru G5 (cifra cheie neverificabila direct)
+
+**Goluri ramase pentru urmatoarea rulare:**
+1. G3 / Legal penal — rate concrete de engagement; analiza conturi avocati cu tractiune reala
+2. G5 / Romana — verificare cifra 40-60%; studii de caz cu conturi RO + cifre reale
+3. G3 / Marketing/SMB — date per-nisa din piata romaneasca
+
+**Urmatoarea rulare recomandata:** dupa 2026-06-08 (2 saptamani) sau la cerere
+
+---
+
 ## [2026-05-22] RULARE 1 — INITIALIZARE COMPLETA
 
 **Stare anterioara:** gol (prima rulare, folder creat de la zero)
