@@ -3,6 +3,40 @@
 
 ---
 
+## [2026-05-25] — RUN 2 (+3 zile fata de punctul 0)
+
+**Status:** Delta identificat. 4 audio noi + 2 formate noi + 1 audio marcat EXPIRAT.
+
+**G1 — Audio delta:**
+- `"And Emily... That's All"` — clip dialog Miranda Priestly (DWP2) — vibe-contrast engine — [MEDIU] — NOU
+- `EVERYTHING HALLELUJAH` — Justin Bieber (Coachella apr 2026) — listing gratitudine — [RIDICAT], **atentie la longevitate (6+ sapt)** — NOU
+- `Bleeding Love` — Leona Lewis — confessional lip-sync — [SCAZUT] o sursa — NOU
+- `Tu Pe Mine Mai Ales` — Ioana Ignat — balada pop RO — [SCAZUT] TikTok discover RO — NOU
+- `Cinco de Mayo 2026` — Slick Stomp — marcat EXPIRAT (legat de 5 mai, acum 20+ zile)
+
+**G2 — Formate delta:**
+- FORMAT 6: `Thinnest Video / 5120x1080` — ultra-wide panoramic, pattern interrupt vizual — [RIDICAT] branduri majore confirmate — NOU
+- FORMAT 7: `Hallelujah Listing` — lista micro-wins + "hallelujah" — [RIDICAT] audio, [MEDIU] longevitate — NOU
+
+**G3 — Fit delta:**
+- Thinnest Video: P1 vizual pentru estetica/studio (reveal spatiu, timelapse proiect)
+- EVERYTHING HALLELUJAH: P1 pentru wellness/small biz (verifica longevitate inainte de postare)
+- "And Emily...": P1 audio pentru comparatii / inainte-dupa / client-brief vs rezultat
+
+**Surse noi folosite:**
+- tiktok.com/discover — "And Emily That's All" confirmat (mai 2026)
+- msn.com / yahoo.com / bennettcreative.co — EVERYTHING HALLELUJAH (mai 2026)
+- napoleoncat.com / inro.social / contentgrip.com / cyberlink.com — 5120x1080 trend (mai 2026)
+- scottsocialmarketing.com — Bleeding Love (mai 2026, singura sursa)
+- tiktok.com/discover RO — Tu Pe Mine Mai Ales (mai 2026, neconfirmat view count)
+
+**Goluri ramase:**
+- Audio RO: acoperire slaba; singurele piste sunt manele-pop + Ioana Ignat, ambele [SCAZUT]
+- EVERYTHING HALLELUJAH: verifica in app daca mai e viu — 6+ saptamani e mult pentru un trend audio
+- Nisele exacte i-vory Studio: inca neconfirmate de echipa
+
+---
+
 ## [2026-05-22] — RUN INITIAL (PUNCT 0)
 
 **Status:** Prima rulare. Niciun fisier anterior. RESEARCH.md creat de la zero.
