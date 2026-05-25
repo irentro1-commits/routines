@@ -1,6 +1,6 @@
 # GPT-IMAGE-2 RESEARCH — i-vory Studio
 
-Ultima actualizare: 2026-05-22
+Ultima actualizare: 2026-05-25
 Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "LOCKED PRODUCT")
 
 ---
@@ -30,13 +30,15 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 
 ### DE TESTAT
 
-**CONTRADICTIE CRITICA — Lungimea promptului:**
+**CONTRADICTIE CRITICA — Lungimea promptului (partial clarificata 2026-05-25):**
 - Baseline FURAT v4 zice 850-1100 cuvinte optimal
-- Pixo.video ("15 field-tested techniques", 2026-04, single source): "sweet spot = 100-300 cuvinte Instant Mode, max 500 Thinking Mode; past a few hundred tokens model starts ignoring earlier instructions"
-- GitHub Anil-matcha: 100-400 cuvinte performanta optima; 500+ = risc incoerenta
+- Pixo.video ("15 field-tested techniques", 2026-04, single source): "sweet spot = 100-300 cuvinte Instant Mode, max 500 Thinking Mode"
+- GitHub Anil-matcha: "GPT-Image-2 handles long, detailed prompts better than shorter ones." — fara limita superioara fixata
 - GitHub YouMind: 150-800 cuvinte, 800+ numai pentru infografice complexe/UI mockups
-- Cookbook oficial: nu da limita fixa, zice "long prompts can work but debugging harder"
-- **ACTIUNE NECESARA:** Testat local cu acelasi prompt la 300 / 600 / 1000 cuvinte. Pana atunci: nu exista confirmare solida ca 850-1100 cuvinte e optim single-shot.
+- Cookbook oficial: nu da limita fixa, "long prompts can work but debugging harder"
+- **NOU 2026-05-25 (magiccreator-ai, ~40+ creator credits):** @BubbleBrain foloseste prompts ce depasesc 800 cuvinte in practica reala (detaliere granulara piele/pose/lighting) si obtine rezultate. @WolfRiccardo si @mark_k: prompts moderate 50-150 cuvinte pt lifestyle/travel.
+- **INTERPRETARE ACTUALA:** Contradictia e probabil use-case-dependent — 100-400 cuvinte = use case simplu (lifestyle, travel); 800+ cuvinte = portrait complex, product cu multe specificatii. 850-1100 e viabil pt complex single-shot dar nu e "optim universal".
+- **ACTIUNE NECESARA:** Testat local cu acelasi subject la 300 / 600 / 1000 cuvinte pe acelasi tip de output. Contradictia nu e rezolvata complet.
 
 **"7-Part Prompt Formula" / "8-Element Framework":**
 - Mentionat de Felo AI si alte surse dar fara autor verificabil
@@ -78,13 +80,14 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 
 ### DE TESTAT
 
-**Diacritice RO (ș, ț, ă, â, î) — GAP MAJOR:**
-- Exista un thread vechi pe OpenAI Developer Community despre probleme DALL-E cu diacriticele romanesti (URL identificat: community.openai.com/t/dall-e-does-not-correctly-place-diacritics.../1250658) dar nu am putut accesa continutul (403)
-- GPT-Image-2 promite ~99% text accuracy si suport multilingual CONFIRMAT pentru: CJK, Arabic, Hindi, Bengali
-- Suport Eastern European / Romano / comma-below (ș/ț vs cedilla s/t) — **NECONFIRMAT in testare publica**
-- Workaround potential de testat: specificare explicita "text with correct Romanian diacritics: comma-below s (ș U+0219), comma-below t (ț U+021B)" sau scris Unicode explicit
-- Alt workaround de testat: "render Romanian text: [TEXTUL] using proper comma-below diacritics, NOT cedilla variants"
-- **ACTIUNE NECESARA:** Test local cu ș/ț/ă - fotografiaza rezultatul, noteaza daca model foloseste cedilla (gresit: ş/ţ U+015F/U+0163) vs comma-below (corect: ș/ț U+0219/U+021B)
+**Diacritice RO (ș, ț, ă, â, î) — GAP MAJOR (partial inchis 2026-05-25):**
+- Thread DALL-E OpenAI Community (community.openai.com/t/dall-e-does-not-correctly-place-diacritics.../1250658): inaccesibil 403
+- GPT-Image-2 CONFIRMAT oficial: "high-fidelity text in Japanese, Korean, Chinese, Hindi, Bengali" — limbile Europene NU sunt in lista de "high-fidelity" din comunicatul oficial
+- **NOU 2026-05-25:** ZeroLu/awesome-gpt-image (update 25 mai 2026, multiple X creator credits): diacritice CONFIRMATE pentru franceza, germana, spaniola in testare reala
+- **NOU 2026-05-25:** magiccreator-ai/awesome-gpt-image-2-prompts (@phasE89, creator ceh): prompt cu "Amatérská fotka" (foto amatoreasca), diacritice cehesti (á, é, í, ů, č etc.) renderate corect — cel mai apropiat de RO confirmat pana acum
+- **INFERENTA (nu confirmare):** Daca diacriticele cehesti (Eastern European) si cele franco-germane merg, sansa buna ca ă/â/î sa mearga. Comma-below (ș/ț U+0219/U+021B) INCA NECONFIRMAT — diferit de cedilla si mai rar in training data.
+- Workaround de testat: "render Romanian text: [TEXTUL] using proper comma-below diacritics, NOT cedilla variants" + specificare Unicode explicit
+- **ACTIUNE NECESARA (PRIORITARA):** Test local ș/ț — confirma daca reda comma-below corect (U+0219/U+021B) sau cedilla gresit (U+015F/U+0163)
 
 **"in the spirit of [font clasic]" pentru evitare copyright:**
 - Tehnica din baseline v4, logica din punct de vedere legal
@@ -136,8 +139,9 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - DE TESTAT: "LOCKED: [produs]" vs "PRESERVED: [produs]" vs "DO NOT CHANGE: [produs]" — care etichetare raspunde mai bine
 
 **Consistenta cross-generatii fara imagine de referinta (text-only img2img):**
-- Nu am gasit tehnici confirmate de 2+ useri pentru a bloca un produs fara imagine sursa
-- GAP de cercetat la urmatoarea rulare
+- **NOU 2026-05-25 (Anil-matcha, single-source):** "The same pet (absolutely consistent in appearance and coloring)" — descriere textuala extrem de detaliata a aparentei (culoare, markings, textura) functioneaza pentru personaj/animal. Tehnica: nu "consistent with previous" ci descrierea COMPLETA a obiectului la fiecare prompt.
+- DE TESTAT pt produs fizic (packaging, sticla, etc.) — mai greu decat personaj
+- GAP partial acoperit, confirmare a 2-a sursa necesara
 
 ### RESPINS
 
@@ -176,17 +180,24 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - "harsh direct on-camera flash, specular highlights" — ZeroLu
 - "natural window light", "tungsten-vs-neon color mixing" — confirmat de multiple surse
 
-### DE TESTAT
-
-**"Candid mood" / "amateur photo" framing:**
-- Mentionat in YouMind GitHub dar single-source ca tehnica specifica
-- Logica: reduce "posed" AI look
-- DE TESTAT: adaugare "candid, unposed, amateur photo aesthetic" la hero shots
+**"Candid mood" / "amateur photo" framing — CONFIRMAT SOLID 2026-05-25:**
+- **magiccreator-ai** (curated de la @WolfRiccardo, @BubbleBrain, @mark_k, @phasE89 + 40 creatori): "smartphone photo realism", "CCD compact camera + harsh on-camera direct flash" pentru snapshot autentic, "authentic phone or travel-camera photos", "amatérská fotka / amatérská kompozice, momentka" (creator ceh)
+- **Anil-matcha** (multiple contributor prompts): "CCD Camera Flash Candid" cu "candid snapshot feeling, slight motion blur"; "Faces and postures must look like real pedestrians, not overly polished"
+- CONFIRMAT: 2 surse independente (magiccreator-ai multi-creator + Anil-matcha multi-contributor). Mutat din DE TESTAT.
+- FORMULA: `shot on CCD compact camera, harsh on-camera direct flash, candid snapshot feeling, slight motion blur, faces and postures look like real pedestrians not overly polished`
+- VARIANTA: `first-person POV / bodycam perspective` pentru anti-posed look (single-source magiccreator-ai, DE TESTAT)
 
 **Anonimizare cu censor blocks:**
 - YouMind GitHub: "opaque rectangular masks covering faces while preserving identity context"
 - Interesant dar use-case limitat pentru hero product
 - DE TESTAT pentru lifestyle photography fara fata completa
+
+### DE TESTAT
+
+**First-person POV / bodycam perspective:**
+- magiccreator-ai (single-source direction): driver's seat, bodycam perspective pentru intimitate candid
+- Logica: elimina "posed for camera" look complet
+- DE TESTAT: adaugat la hero lifestyle shots
 
 ### RESPINS
 
@@ -230,6 +241,22 @@ Exemple verificate cu autori reali din ZeroLu/awesome-gpt-image (GitHub, colecti
 - Tehnica: cross-brand collab cu consistenta fortata explicit
 - Aplicare i-vory: collab campaign visual
 
+**7. Amalfi Coast Vintage Travel Poster** — @WolfRiccardo (X, via magiccreator-ai, 2026-05)
+- Tehnica: "1950s travel poster style" + era descriptori + retro palette
+- Aplicare i-vory: packaging insert / gift card cu aesthetic mediteraneean
+
+**8. Boston Spring 2026 Event Poster** — @BubbleBrain (X, via magiccreator-ai, 2026-05)
+- Tehnica: localitate reala + sezon + granularitate imbracaminte/lighting 800+ cuvinte
+- Aplicare i-vory: poster campaign sezonier cu text
+
+**9. Yorkshire Pub Scene** — @phasE89 (X, creator ceh, via magiccreator-ai, 2026-05)
+- Tehnica: candid interior + "authentic pub atmosphere" + CCD aesthetic
+- Aplicare i-vory: lifestyle shot produs in context European autentic
+
+**10. Irish Countryside Coastal Portrait** (creator neverificat, magiccreator-ai, 2026-05)
+- Tehnica: locatie specifica + lumina naturala nord-atlantica + film stock cald
+- NOTA: creator handle neverificat — nivel incredere mai mic, dar tehnica consistenta cu alte exemple confirmate
+
 ### DE TESTAT
 
 **Prompturi carusel 3:4 vs hero 3:2 din baseline v4:**
@@ -250,7 +277,8 @@ Exemple verificate cu autori reali din ZeroLu/awesome-gpt-image (GitHub, colecti
 ## NOTE METODOLOGICE
 
 **Surse accesate cu succes:**
-- GitHub raw content: ZeroLu/awesome-gpt-image, Anil-matcha/Awesome-GPT-Image-2-API-Prompts, YouMind-OpenLab/awesome-gpt-image-2, openai/openai-cookbook
+- GitHub raw content: ZeroLu/awesome-gpt-image (update 2026-05-25), Anil-matcha/Awesome-GPT-Image-2-API-Prompts, YouMind-OpenLab/awesome-gpt-image-2, openai/openai-cookbook
+- **NOU 2026-05-25:** github.com/magiccreator-ai/awesome-gpt-image-2-prompts — living collection curated din X, ~40+ creatori confirmati (@WolfRiccardo, @BubbleBrain, @mark_k, @itnavi2022, @phasE89 si altii). Adaugat la surse tracked.
 - Web search snippets: multiple surse (fragmentar)
 
 **Surse blocate (403):**
