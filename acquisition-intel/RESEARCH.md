@@ -1,6 +1,6 @@
 # i-vory Studio — Acquisition Intel
 
-> Ultima actualizare: 2026-05-22 | Prima rulare — toate sectiunile populate.
+> Ultima actualizare: 2026-05-25 | Delta: win rate propuneri (G1), pricing per bucata (G2), retainer vs one-off (G3).
 
 ---
 
@@ -74,6 +74,26 @@
 
 ---
 
+### 5. Win rate la propuneri — diagnostic si tactici de close rate
+
+**Verdict:** agentii creative mediocre: 25-43% close rate; tinta profitabila: 60%+.
+
+- Medie win rate industrie: 45% (toate sectoarele); agentii creative specific: 25% (AdAge) - 43% (CubeYou)
+- Win rate <50% = over-proposing (ICP gresit, trimiti propuneri la clienti nepotriviti)
+- Win rate >90% = sub-pret → creste pretul imediat
+- Propunere neinchisa in 21 de zile: sanse de close cu 70% mai mici → follow-up structurat in primele 3 saptamani
+- 2-3 propuneri/saptamana hiper-personalizate (nu blast) → retainers de $5-10k fara volum mare
+
+**Aplicat la i-vory:**
+- Trimite max 5-10 propuneri/luna; calitate > volum
+- Follow-up la zi 3, zi 7, zi 14 dupa propunere (max 3 touchpoints, nu mai mult)
+- Daca win rate < 50%: recalibreaza ICP sau simplifica propunerea
+- Daca win rate > 80%: pretul e prea mic, creste-l la urmatoarea oportunitate
+
+**Surse:** [Bidara RFP Statistics 2026](https://www.bidara.ai/research/rfp-statistics) (2026), [Flowcase Win Rate 2025](https://www.flowcase.com/blog/whats-a-good-proposal-win-rate-in-2025) (2025), [Loopio RFP Win Rates](https://loopio.com/blog/rfp-statistics-win-rates/) (2025)
+
+---
+
 ## G2: PRICING — Benchmark Romania 2025-2026
 
 ### Social Media Management (lunar, fara buget reclame)
@@ -105,6 +125,22 @@
 | Video 60s productie completa | 4800-76800 RON | sweet spot calitate: 16320-38400 RON |
 
 **Sursa:** [BrandMastery Servicii Video](https://brandmastery.ro/) (2025-2026)
+
+---
+
+### Pricing per bucata — post individual (estimat din piata RO)
+
+| Format | Freelancer RO | Agentie mica (calculat din pachete publice) |
+|---|---|---|
+| Post static (1 imagine) | 50-100 RON | ~280 RON (NION: 450 EUR / 8 posturi) |
+| Video scurt TikTok/Reel | 70-150 RON | inclus in pachet, nu cotat separat |
+| Carusel (8-10 slide-uri, design) | 150-300 RON estimat | 350-500 RON estimat |
+
+**Nota critica:** carusel = formatul cel mai scump per bucata (mai multa munca de design). Ordine crescatoare pret: Story < Post static < Reel < Carusel.
+
+Preturile de freelancer = design only (fara strategie, management cont, copywriting).
+
+**Surse:** [taskuri.ro Creator Continut Bucuresti](https://taskuri.ro/services/creator-de-continut/bucuresti) (2025), [MOCAPP Campanii Influenceri 2026](https://mocapp.net/blog/cat-costa-o-campanie-cu-influenceri-2026/?lang=ro) (2026-01), [NION Preturi Social Media](https://www.nion.ro/agentie-marketing/preturi-social-media-) (2025)
 
 ---
 
@@ -161,6 +197,25 @@ Romania = "unul din cele mai bune raporturi calitate-pret din Europa pentru bran
 - Pozitionare: "departament de marketing creativ externalizat"
 - Target: branduri cu buget de reclame activ (>3000 RON/luna ads), care vor scale
 - Diferentiere: involvement strategic, nu doar executie; sesiuni lunare de strategie incluse
+
+### Retainer vs proiecte one-off — argument de pozitionare
+
+**Verdict:** retainerul nu e doar mai profitabil pentru agentie — e mai ieftin per livrabil si mai predictibil pentru client.
+
+- Retainer agencies: 18% churn anual vs 42% la proiecte one-off (2.3x mai buna retentie)
+- Client in retainer: durata medie 56 luni (4.7 ani) vs 24 luni (2 ani) la proiecte izolate
+- Agencies cu 70%+ venituri din retainere: marje 5-8% mai mari decat agentii project-based
+- QBR (raport de performanta lunar/trimestrial): creste retentia clientilor cu 15-20%
+
+**Aplicat la i-vory:**
+- La orice propunere: arata costul per livrabil in pachet vs per proiect izolat (retainerul = mai ieftin per post)
+- Pachetul START 3k = portita de intrare → propune upgrade la GROW 5k la 30 de zile daca clientul e multumit
+- Raport lunar cu metrici (reach, engagement rate, conversii estimate): justifica pretul retainerului si reduce churn-ul
+- Argumentul pentru client: "un junior intern = 4000-6000 RON/luna brut, fara tool-uri, fara experienta, fara scalabilitate"
+
+**Surse:** [Focus Digital Agency Churn Report 2026](https://focus-digital.co/average-marketing-agency-churn/) (2025-2026), [AgencyAnalytics Benchmarks 2025](https://agencyanalytics.com/blog/marketing-agency-benchmarks-2025) (2025), [AgencyTech Client Retention 2025](https://www.agencytech.ai/blog/the-ultimate-guide-to-client-retention-for-digital-marketing-agencies-2025) (2025)
+
+---
 
 ### Reguli de pozitionare care cresc conversia
 
