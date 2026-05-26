@@ -1,5 +1,5 @@
 # VIDEO INTEL - i-vory Studio Research Base
-> Ultima actualizare: 2026-05-22 | Prima rulare
+> Ultima actualizare: 2026-05-26 | Rulare 2
 
 ---
 
@@ -99,6 +99,12 @@ SUBIECT (detalii specifice)
 - Motion Brush pentru scene complexe cu elemente la viteze diferite
 - Optim pentru productie comerciala si advertising
 
+**Google Flow (Veo 3.1) - NOU Google I/O 2026:**
+- Mediu dedicat pentru video generativ, camera control precis, temporal consistency imbunatatit
+- Sync audio nativ, suport dialog, aceeasi calitate ca Veo 3.1 Standard
+- App Android beta disponibil; Flow Music app iOS separat
+- Alternativa directa la Runway Director Mode pentru utilizatorii Google
+
 **Termeni care functioneaza verificat:**
 ```
 Camera: dolly in/out, pan left/right, tilt up/down, handheld shake,
@@ -136,35 +142,47 @@ Endpoint: always add where motion ends
 
 | Model | Pret/sec | 10 sec clip | Durata max | Note |
 |-------|----------|-------------|------------|------|
-| Kling 3.0 | $0.10 | $1.00 | 120 sec | Cel mai bun raport calitate/pret |
+| Veo 3.1 Lite | $0.05 | $0.50 | - | NOU Google I/O; prototipare ieftina |
 | Seedance 2.0 | ~$0.05-0.09 | ~$0.90 | 15 sec | Best value overall |
-| Sora 2 (API) | $0.10 base / $0.30-0.50 pro | $1-5 | ~25 sec | SHUTDOWN sep 2026 |
-| Veo 3.1 Fast | $0.15 | $1.50 | - | Rapid prototyping |
-| Veo 3.1 Standard | $0.75 | $7.50 | - | 4K, best lip-sync |
+| Kling 3.0 | $0.10 | $1.00 | 120 sec | Motion Control unic, durata record |
+| Sora 2 (API) | $0.10-$0.50 | $1-5 | ~25 sec | SHUTDOWN sep 2026 - EVITA |
+| Veo 3.1 Standard | **$0.40** | $4.00 | **2 min** | CORECTIE: era $0.75 - redus la I/O; durata extinsa |
 | Runway Gen-4.5 | ~$1.50/clip | $1.50 | - | Pro advertising |
+| Gemini Omni Flash | $0.20-0.60* | $2-6* | 10 sec | NOU 19 mai; API public "curand"; *proiectie |
 
 **Abonamente lunare:**
-- Kling Standard: $10/mo (entry cel mai ieftin)
+- Google AI Plus: $7.99/mo (include Gemini Omni Flash + Veo 3.1 Lite via Flow - NOU)
+- Kling Standard: $10/mo (entry cel mai ieftin pentru Kling dedicat)
 - Seedance 2.0: ~$9/mo (cel mai bun raport volum/calitate)
 - Runway Standard: $12/mo (~62 clipuri de 10 sec)
+- Google AI Pro: $19.99/mo (Veo 3.1 Standard + Flow)
+- Higgsfield Starter: $15/mo | Plus: $39/mo | Ultra: $99/mo (agregator 15+ modele)
 - Runway Pro: $76/mo (volum mare, features avansate)
-- Google AI Pro (Veo 3.1): $19.99/mo
+
+**Higgsfield ca agregator - VERDICT:**
+- Higgsfield Plus ($39/mo, 1000 credite) = ~142 clipuri Kling 3.0 (~$0.27/clip)
+- Kling direct ($10/mo) = mai ieftin daca folosesti DOAR Kling
+- Higgsfield are sens DOAR daca folosesti mix Kling + Veo + Seedance intr-un singur cont
+- Avantaj Higgsfield: Cinema Studio, Soul ID (features exclusive), acces multi-model fara conturi separate
 
 **Recomandare i-vory Studio:**
-- Prototipare rapida: Seedance 2.0 ($9/mo) sau Kling Standard ($10/mo)
-- Productie finala calitate: Veo 3.1 sau Kling 3.0 Pro
-- EVITA Sora (shutdown progresiv 2026)
+- Prototipare rapida (dental concept): Veo 3.1 Lite ($0.05/sec) sau Seedance 2.0 ($9/mo)
+- Productie dentara calitate + Motion Control: Kling 3.0 Pro ($10/mo direct)
+- Explainer cu audio nativ: Gemini Omni Flash (testat romana - vezi G5) sau Veo 3.1 Standard
+- EVITA Sora (shutdown confirmat sep 2026)
 
 ### DE TESTAT
 
 - Generare batch in off-peak pentru cost efectiv la Kling
 - Seedance 2.0 pentru volum social media dentar (raport cel mai bun)
 - API direct vs abonament pentru volume lunare > 100 clipuri
+- Gemini Omni Flash API (fara data exacta, anuntat "curand" dupa 19 mai 2026)
+- Higgsfield Plus ($39/mo) daca proiectul foloseste 3+ modele diferite
 
 ### RESPINS
 
 - Sora pentru proiecte noi (shutdown confirmat API sep 2026)
-- Veo 3.1 Standard pentru draft/prototip (prea scump la $0.75/sec)
+- Veo 3.1 Standard pentru draft/prototip (chiar si dupa reducere la $0.40/sec; Veo 3.1 Lite la $0.05 e suficient pentru draft)
 
 **Surse:**
 - BuildMVPFast API pricing apr 2026: https://www.buildmvpfast.com/api-costs/ai-video
@@ -180,7 +198,9 @@ Endpoint: always add where motion ends
 **Tipuri de continut care functioneaza deja (confirmat 2026):**
 
 1. **Explainer procedura** - AI presenter explica procedura (voce + miscare), fara footage clinic real
-   - Tool: Seedance 2.0 (audio nativ sync) sau Veo 3.1 (lip-sync <120ms)
+   - Tool: Gemini Omni Flash (80 limbi - cel mai probabil include romana, DE TESTAT) sau Veo 3.1 Standard (lip-sync <120ms)
+   - Kling 3.0 si Seedance 2.0: suporta 5-8 limbi dar romana NU e confirmata explicit
+   - WORKAROUND confirmat pentru romana: video mut AI + voiceover ElevenLabs romana (calea sigura acum)
    - Use case: "Ce se intampla la detartraj", "Cum functioneaza implantul"
 
 2. **Animatie macro procedura** - instrument + dinte/model anatomic, miscare lenta
@@ -214,9 +234,10 @@ Endpoint: always add where motion ends
 ### DE TESTAT
 
 - Veo 3.1 physics pentru apa/spray (detartraj) → realismul fluidelor
-- Kling Motion Transfer: inregistreaza miscarea mainii proprii cu instrument → aplica pe model anatomic
-- Seedance 2.0 audio nativ pentru explainer in romana (testat cu 8 limbi, ROM inclusa?)
+- Kling Motion Transfer: inregistreaza miscarea mainii proprii cu instrument → aplica pe model anatomic (Kling 3.0 MC are "occlusion recovery" - util pentru instrumente/props ce se suprapun)
+- **PRIORITATE:** Gemini Omni Flash cu romana: 80 limbi suportate → test "Explica detartrajul in romana" → lip sync nativ
 - Prompt cu "cross-section view dental anatomy" - cat de bine intelege modelele anatomice
+- Veo 3.1 Lite $0.05/sec pentru prototipare rapida animatii dentare (pret nou, accesibil)
 
 ### RESPINS
 
@@ -235,8 +256,11 @@ Endpoint: always add where motion ends
 
 | Model | Puncte forte | Slab la |
 |-------|-------------|---------|
-| Kling 3.0 | Motion Control unic, pret OK, durata 120s | Uneori suprarealist |
-| Veo 3.1 | Calitate vizuala top, lip-sync, physics | Scump la Standard |
-| Seedance 2.0 | Raport calitate/pret, audio nativ, leaderboard | Durata max 15s |
-| Runway Gen-4.5 | Director Mode, Motion Brush, commercial | Mai scump, fara audio nativ |
+| Kling 3.0 | Motion Control unic, pret OK, durata 120s | Romana neconfirmata in audio nativ |
+| Veo 3.1 Standard | Calitate vizuala top, lip-sync, physics, 2 min | $0.40/sec (inca scump pt volum) |
+| Veo 3.1 Lite | $0.05/sec - cel mai ieftin calitate, Lite tier NOU | Calitate sub Standard |
+| Seedance 2.0 | Raport calitate/pret, audio nativ, leaderboard | Durata max 15s, romana neconfirmata |
+| Runway Gen-4.5 | Director Mode #1 Video Arena, Motion Brush | Mai scump, fara audio nativ |
+| Gemini Omni Flash | 80 limbi (romana probabil), free/YouTube, edit in-chat | API nu e public inca, max 10 sec |
+| Higgsfield | Agregator 15+ modele intr-un cont | Scump daca folosesti 1-2 modele |
 | Sora 2 | - | SHUTDOWN progresiv, evita pentru proiecte noi |

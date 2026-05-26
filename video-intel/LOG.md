@@ -3,6 +3,46 @@
 
 ---
 
+## [2026-05-26] RULARE 2 - Goluri + news Google I/O 2026
+
+**Status:** Delta de la 2026-05-22. 5 goluri investigate, 2 rezolvate complet, 2 partial, 1 neconfirmat.
+
+**Surse consultate:** 9 cautari web, ~40 URL-uri, mai 2026.
+
+**Delta adaugat:**
+
+### G3 - Camera/miscare:
+- NOU: Google Flow (Veo 3.1) = alternativa la Runway Director Mode, camera control precis, app Android beta
+- Sursa: Google I/O 2026 roundup (mai 2026)
+
+### G4 - Cost:
+- CORECTIE IMPORTANTA: Veo 3.1 Standard = $0.40/sec (nu $0.75 cum era in RESEARCH - reducere la Google I/O)
+- CORECTIE: Veo 3.1 durata max extinsa la 2 MINUTE la Standard (era '-')
+- NOU TIER: Veo 3.1 Lite = $0.05/sec (cel mai ieftin tier calitate pe piata acum)
+- NOU MODEL: Gemini Omni Flash (lansat 19 mai 2026) - free/YouTube, $7.99/mo Google AI Plus, API proiectat $0.20-0.60/sec, max 10 sec, 80 limbi, API public inca nedisponibil
+- REZOLVAT: Higgsfield vs Kling direct = Higgsfield Plus $39/mo vs Kling $10/mo direct. Higgsfield merit DOAR pentru acces multi-model (Kling+Veo+Seedance). Direct Kling e mai ieftin daca modelul e unic.
+- Surse: Google I/O 2026 (mai 2026), vo3ai.com, wavespeed.ai, imagine.art (mai 2026)
+
+### G5 - Dental (romana):
+- REZOLVAT PARTIAL: Romana nu este confirmata in niciunul din modelele native (Kling: 5-7 limbi, Seedance: 8+ limbi, ambele fara romana explicit)
+- Gemini Omni Flash (80 limbi) = cel mai probabil include romana → DE TESTAT PRIORITAR
+- Workaround confirmat sigur acum: video mut AI + voiceover ElevenLabs romana
+- NOU: Kling 3.0 Motion Control "occlusion recovery" util pentru scene cu instrumente/props suprapuse (relevanta dentara)
+- Surse: kling.ai/blog, flowith.io, toolworthy.ai (2026)
+
+**Goluri inchise:**
+- [x] Pret Higgsfield vs Kling: REZOLVAT
+- [x] Romana in modele native: REZOLVAT (neconfirmata, workaround ElevenLabs)
+- [x] Veo 3.1 pret real: CORECTAT
+
+**Goluri ramase (pentru rularea 3):**
+- [ ] Gemini Omni Flash test cu romana - lip sync real (API nu e public inca)
+- [ ] "cross-section dental anatomy" prompt test cu Kling sau Veo (real)
+- [ ] Runway vs Kling macro clinic test comparativ direct
+- [ ] Motion Transfer Kling pe miscare instrument chirurgical (test propriu)
+
+---
+
 ## [2026-05-22] RULARE INITIALA - Prima populare completa
 
 **Status:** Prima rulare, folder inexistent anterior. Creat de la zero.
