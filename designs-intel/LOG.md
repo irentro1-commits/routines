@@ -3,6 +3,44 @@ _Ordinea: cel mai recent sus_
 
 ---
 
+## [2026-05-26] RULARE 2 — Delta incremental
+
+**Stare anterioara:** RESEARCH.md complet pe toate 4 goaluri din rularea 2026-05-22.
+**Surse verificate:** 8 query-uri WebSearch, surse 2026-01 → 2026-05 (ultimele 30 zile prioritizate).
+**Goluri adresate din rularea anterioara:** % concrete save-rate, sample size studii, cifre reale.
+
+**Delta adaugat:**
+
+G1 (paleta/contrast):
+- Pantone CotY 2026: Cloud Dancer (off-white) confirma directia neutral base + accent
+- Accente noi trending Mai 2026: Transformative Teal, Electric Fuchsia, Blue Aura, Amber Haze, Jelly Mint
+- Gradient text pe headline = trend emergent creative brands, de testat
+- RESPINS adaugat: muted-only feed = invizibil (feed saturat de neutraluri)
+
+G2 (tipografie/ierarhie):
+- Oversized headline + text suport minim confirmat activ Mai 2026
+- Headline in treimea superioara = pozitionare optima in feed
+- Gradient text confirmat ca modernizare rapida si eficienta
+
+G3 (layout/carusel):
+- Buffer (52M+ posts, cel mai mare sample size gasit): carusel 6.90% vs. single 4.44% vs. Reels 3.31%
+- Caruseluri 8-10 slide-uri = performanta optima
+- Instagram -26% engagement general in 2025 (context important)
+- Reels saves -43% in 2026 (carusel ramane dominant pe saves)
+- Ierarhia semnalelor confirmate: sends per reach > saves > comments (likes irelevant)
+- Benchmark: 10 saves/1k reach = prag minim scaling
+
+G4 (element neasteptat):
+- Timing pattern interrupt: 0-0.7s interrupt / 0.7-1.5s promise / 1.5-3s proof
+- Formula 3x saves: 2+ din {framework numerotat, lista numita, template aplicabil, stat concret}
+- 3-second hold rate >60% = tinta minima Reels
+
+**Goluri ramase:** save-rate % pe tipuri VIZUALE specifice (nu doar format); date pe audienta de design/studio (nu brand generic); impact marimii fontului pe save-rate masurat; nicio validare interna pe date reale i-vory.
+
+**Urmatoarea rulare:** verifica date post-mai 2026 + studii care segmenteaza save-rate pe nisa design/creative (nu doar tip format).
+
+---
+
 ## [2026-05-22] PRIMA RULARE — Delta complet (punct 0)
 
 **Stare anterioara:** repo gol, niciun fisier anterior.
