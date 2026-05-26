@@ -2,6 +2,30 @@
 
 ---
 
+## [2026-05-26] — RULARE 2 (delta vs. 2026-05-22)
+
+**Status:** Delta identificat pe 3 nise (G1, G2, G5). G3 si G4 fara miscari noi verificabile.
+
+### Top miscari per nisa (doar delta)
+
+**G1 — Agentii social media RO:**
+- TikTok lanseaza campania globala "Watch it. Love it. Want it." (7 mai 2026) — repositionare ca platform consideration+conversion; studiu Ipsos 9K useri/12 piete; schimba argumentul de vanzare pentru agentii care pitch TikTok (sursa: money.ro, revistabiz.ro)
+- Kooperativa 2.0 anunta conferinta "SHIFT HAPPENS" 25 nov 2026 — bilete la vanzare, streaming online; miscare de thought leadership care trebuie contracarata inainte de toamna (sursa: shop.kooperativa.ro)
+
+**G2 — Avocati penal RO:**
+- COMPETITOR MAJOR OMIS IDENTIFICAT: Alin Chifor (@alinchiforej) — 471K+ followers TikTok, specializat drept penal + DIICOT, content educational activ din 2022; depaseste eavocatul.ro ca scala (sursa: tiktok.com/@alinchiforej)
+- Scandal avocata virala arestata (mai 2026) — a creat atentie masiva pe subiectul avocati+social media; window pentru pozitionare etica/autentica (sursa: stirilekanald.ro, bzi.ro)
+
+**G3 — Cabinete dentare RO:** Nimic nou verificabil in fereastra mai 22-26.
+
+**G4 — Kineto/recuperare AVC RO:** Nimic nou verificabil in fereastra mai 22-26.
+
+**G5 — E-com/pisici RO:**
+- PetMax: campanie "Antiparazitare caini si pisici 2026" activa — promotional pur, zero content (sursa: petmax.ro)
+- Animax: campanie "Coupon Discount" 18 apr – 19 iul 2026 + reduceri 1,000 articole — tot promotional, confirma lipsa storytelling (sursa: animax.ro, ecomunicate.ro)
+
+---
+
 ## [2026-05-22] — RULARE INITIALA (punctul 0)
 
 **Status:** Prima rulare. Nu existau fisiere anterioare. Am construit RESEARCH.md de la zero.
