@@ -1,5 +1,5 @@
 # REELS INTEL — i-vory Studio
-> Ultima actualizare: 2026-05-22 | Run incremental, citeste LOG.md pentru istoric.
+> Ultima actualizare: 2026-05-26 | Run incremental, citeste LOG.md pentru istoric.
 > Nise asumate (first run): lifestyle / estetica / wellness / small biz creativ.
 > Nivel incredere: [RIDICAT] surse multiple concordante | [MEDIU] 1-2 surse | [SCAZUT] speculativ/greu de verificat
 
@@ -19,6 +19,11 @@
 | Forrest Frank (track nou) | Forrest Frank | feel-good, dance challenge, gratitudine | wellness, lifestyle | [SCAZUT] nume confirmat, titlul track nu a putut fi verificat | buffer.com — mai 2026 |
 | POP DAT THANG (Remix) | DaBaby, GloRilla, Yung Miami, YKNIECE | gym, lip-sync, fashion, travel recap | fitness, lifestyle | [MEDIU] | heyorca.com / scottsocialmarketing.com — mai 2026 |
 | Da-i Pedala | necunoscut (manele-pop) | dans, party, summer | nisa RO generala | [SCAZUT] sursa TikTok RO, neconfirmat independent | evz.ro / tiktok.com RO — mai 2026 |
+| EVERYTHING HALLELUJAH | Justin Bieber (Coachella 2026) | listing wins/features cu "hallelujah" dupa fiecare | studio creativ, small biz, lifestyle | [MEDIU] multiple surse concordante | newengen.com / hola.com / msn.com — mai 2026 |
+| Bleeding Love | Leona Lewis (2008, reactivat) | "Nostalgic Confession" — lip-sync "I don't care what they say, I'm in love with you" | orice nisa cu "guilty pleasure" de brand | [MEDIU] 120K+ Reels confirmate | newengen.com / scottsocialmarketing.com — mai 2026 |
+| Loving Life Again | Ella Langley (album Dandelion, apr 2026) | glow-up soft / recuperare / fresh start B-roll | wellness, lifestyle, small biz rebranding | [MEDIU] 280K+ uses TikTok, activ Instagram | trends.thicket.sh / newengen.com — mai 2026 |
+| Rock Music | Charli XCX (lansat 7 mai 2026) | Freeze Frame edit — split la glitch-ul din track | process reveal, fit check, product reveal | [MEDIU] trend de editare tehnica, confirmat in surse marketing | newengen.com / later.com — mai 2026 |
+| Nu mai e | IOANA IGNAT | emotional, storytelling | nisa RO sentimentala, lifestyle | [SCAZUT] singura sursa, neconfirmat independent | tiktok.com/discover RO — mai 2026 |
 
 > **ATENTIE SUNET:** audio trending e greu de verificat fara acces direct la platforma. Trateaza coloana "sunet" ca directie, nu garantie. Verifica in app inainte de utilizare.
 
@@ -27,7 +32,10 @@
 - Manele-pop pentru audience RO: tendinta structurala, nu doar un sunet.
 
 ### EXPIRAT / PROBABIL MORT
-*(nimic de marcat — primul run, nu avem istoric)*
+
+| Sunet | Motiv | Data expirare |
+|---|---|---|
+| The One That Got Away — Katy Perry | Disparut din toate sursele de monitoring post-22 mai; probabil ciclul de 7-14 zile s-a incheiat | ~mai 2026 |
 
 ---
 
@@ -73,6 +81,38 @@
 - **Incredere:** [MEDIU].
 - **Sursa:** msn.com — mai 2026.
 
+#### FORMAT 6: Ultra-Wide "Thinnest Reel" (5120x1080) *(activ, in crestere)*
+- **Mecanism:** video montat in format ultra-wide (21:9 sau 32:9) — apar benzi negre sus/jos, efect cinematic de film/trailer. Instagram inca cere upload 9:16 dar creatorul scaleaza imaginea interior cu benzi.
+- **Hook vizual:** contrast imediat cu celelalte reels-uri verticale din feed — scroll-stopper prin diferenta de forma.
+- **Durata:** orice, format independent de durata.
+- **Potrivit pentru:** estetica, lifestyle, interior, behind-the-scenes dramatic, brand moodboard.
+- **Incredere:** [MEDIU] — multiple surse confirmate, brand-uri mari (Netflix, BMW) au adoptat.
+- **Sursa:** serotonin.co.uk / yoursocial.team / zoho.com/social — mai 2026.
+
+#### FORMAT 7: "Nostalgic Confession" cu Bleeding Love *(activ, 120K+ Reels)*
+- **Mecanism:** "Them: [ceva care se presupune ca e rau]" → privesti lovingly la acel lucru + lip-sync la "I don't care what they say, I'm in love with you" (Leona Lewis — Bleeding Love).
+- **Hook vizual:** expresie faciala in prim plan, text overlay cu "Them: ...".
+- **Durata:** 15-25 sec.
+- **Potrivit pentru:** orice brand cu un "guilty pleasure" de nisa — procesul haotic, clientii imposibili, obsesia pentru detalii.
+- **Incredere:** [MEDIU].
+- **Sursa:** newengen.com / scottsocialmarketing.com — mai 2026.
+
+#### FORMAT 8: "Rock Music Freeze Frame" cu Charli XCX *(tehnic, aparut mai 2026)*
+- **Mecanism:** filmezi clip, sincronizezi cu glitch-ul din "Rock Music", folosesti animatia "stuck frame" din editorul Instagram — imaginea ingheata in momentul cel mai bun in timp ce audio continua.
+- **Hook vizual:** momentul de freeze pare intentionat, atrage privirea.
+- **Durata:** 15-30 sec.
+- **Potrivit pentru:** product reveal, process reveal, fit check, livrabile finale.
+- **Incredere:** [MEDIU] — tehnica specifica editorului Instagram (business accounts: verifica in app).
+- **Sursa:** newengen.com / later.com — mai 2026.
+
+#### FORMAT 9: "EVERYTHING HALLELUJAH Listing" *(activ, simplu, brand-friendly)*
+- **Mecanism:** enumerezi wins, features sau momente bune, fiecare incheiat cu "hallelujah". Text overlay sau voce. Bariera de intrare foarte scazuta.
+- **Hook vizual:** list format curat, prima bula de text ca hook.
+- **Durata:** 20-40 sec.
+- **Potrivit pentru:** studio creativ (lista livrabile, colaborari), small biz (lista servicii), wellness (lista transformari client).
+- **Incredere:** [MEDIU] — trend Coachella 2026, multi participanti celebri.
+- **Sursa:** newengen.com / hola.com — mai 2026.
+
 ### REGULI DE EDITARE CONFIRMATE MAI 2026
 
 | Parametru | Valoare optima | Sursa |
@@ -104,6 +144,13 @@
 | JENNIE x Dracula | **MEDIU** — daca exista content duo | Doua persoane, doua perspective, doua produse. | Audio P2 |
 | Da-i Pedala (RO) | **SCAZUT** — nisa de dans/party, nu studio | Skip daca brandul nu e playful/party. | Skip |
 | POP DAT THANG | **SCAZUT** — rap/hip-hop energy | Potential pentru fitness-adjacent sau behind the scenes energic. | P3 daca se potriveste tonul |
+| Loving Life Again (Ella Langley) | **RIDICAT** — wellness, lifestyle, small biz | B-roll montaj de "inainte/dupa" sau evolutie proiect. Textul "back to loving life again" ca overlay. Audio relaxat, neinvaziv. | **P1** |
+| EVERYTHING HALLELUJAH (Bieber) | **RIDICAT** — studio creativ, small biz | Lista de servicii, realizari, testimoniale client, finalizari de proiecte — fiecare incheiat cu "hallelujah". Bariera minima de productie. | **P1** |
+| Nostalgic Confession / Bleeding Love | **MEDIU** — umor de nisa, identitate | "Them: clientul vrea 3 revizuiri in 2 ore" → privesti lovingly la laptop/studio → lip-sync. Autoironie functioneaza bine pentru studio creativ. | **P2** |
+| Ultra-Wide Format (5120x1080) | **RIDICAT** — estetica, lifestyle | Moodboard cinematic, behind-the-scenes dramatic, reveal de spatiu/proiect. Diferentiator vizual imediat. Nu necesita audio specific. | **P1 FORMAT** |
+| Rock Music Freeze Frame (Charli XCX) | **MEDIU** — process/product reveal | Ingheata momentul "ta-da" al unui proiect finalizat. Necesita editare in app Instagram. Testeaza pe cont personal intai. | **P2** |
+| EVERYTHING HALLELUJAH Listing Format | **RIDICAT** — identic cu audio P1 | (vezi mai sus — format si audio merg impreuna) | **P1** |
+| Nu mai e / IOANA IGNAT (RO) | **SCAZUT** — emotional, nisa sentimentala | Nu e fit evident pentru studio creativ/estetica. Eventual pentru campanii cu narrativ personal. | P3/Skip |
 
 ### INSIGHT STRUCTURAL MAI 2026
 - **63% din consumatori** prefera short-form video cand cauta produse/servicii (quso.ai).

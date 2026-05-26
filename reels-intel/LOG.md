@@ -3,6 +3,45 @@
 
 ---
 
+## [2026-05-26] — RUN 2 (INCREMENTAL, +4 zile)
+
+**Status:** Delta real identificat. 5 sunete noi, 4 formate noi, 1 expirat.
+
+**G1 — Audio delta:**
+- ADAUGAT: EVERYTHING HALLELUJAH (Justin Bieber/Coachella 2026) — listing format, [MEDIU]
+- ADAUGAT: Bleeding Love (Leona Lewis, reactivat) — Nostalgic Confession, 120K+ Reels, [MEDIU]
+- ADAUGAT: Loving Life Again (Ella Langley, apr 2026) — glow-up B-roll, 280K+ TikTok, [MEDIU]
+- ADAUGAT: Rock Music (Charli XCX, 7 mai 2026) — freeze frame edit trend, [MEDIU]
+- ADAUGAT RO: Nu mai e (IOANA IGNAT) — TikTok RO, [SCAZUT] o singura sursa
+- EXPIRAT: The One That Got Away (Katy Perry) — disparut din sursele saptamanii, marcat mort
+
+**G2 — Format delta:**
+- FORMAT 6: Ultra-Wide "Thinnest Reel" (5120x1080) — scroll-stopper cinematic, [MEDIU] multiple surse
+- FORMAT 7: Nostalgic Confession (Bleeding Love) — lip-sync "I don't care", [MEDIU]
+- FORMAT 8: Rock Music Freeze Frame — stuck frame animation la glitch Charli XCX, [MEDIU]
+- FORMAT 9: EVERYTHING HALLELUJAH Listing — enumerare cu "hallelujah", bariera minima, [MEDIU]
+
+**G3 — Fit delta:**
+- P1 NOU adaugat: Loving Life Again (wellness/lifestyle) + EVERYTHING HALLELUJAH (studio/small biz) + Ultra-Wide Format (estetica)
+- P2 NOU adaugat: Nostalgic Confession (umor de nisa) + Rock Music Freeze Frame (reveal tehnic)
+
+**Surse principale folosite:**
+- newengen.com — "Instagram Trends: May 2026 — Updated Weekly" (mai 2026)
+- hola.com / msn.com / z971.com — trend EVERYTHING HALLELUJAH post-Coachella (mai 2026)
+- scottsocialmarketing.com — trending Reels audio saptamana mai 2026
+- trends.thicket.sh — "Loving Life Again TikTok Trend" (mai 2026)
+- serotonin.co.uk / yoursocial.team / zoho.com — Ultra-Wide 5120x1080 format (mai 2026)
+- later.com / napoleoncat.com — formate Reels mai 2026
+- y101.com / billboard.com — Charli XCX "Rock Music" (mai 2026)
+
+**Goluri ramase:**
+- Acces direct platforma RO: inca lipsa verificare view-count in app
+- Nisele exacte i-vory Studio: neconfirmate, G3 bazat pe asumptie lifestyle/estetica/wellness/studio
+- "Be Like a Woman" (Chris Rainbow) si audio originale (@seetorra, @browsbyzulema): nu au putut fi confirmate independent — EXCLUSE (anti-halucinare)
+- "Aura" si "Cherry Bomb (Sped Up)" — artist necunoscut — EXCLUSE
+
+---
+
 ## [2026-05-22] — RUN INITIAL (PUNCT 0)
 
 **Status:** Prima rulare. Niciun fisier anterior. RESEARCH.md creat de la zero.
