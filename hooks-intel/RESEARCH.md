@@ -1,6 +1,6 @@
 # RESEARCH.md — i-vory Studio Hook Intelligence
-Ultima actualizare: 2026-05-22
-Urmatoarea rulare: cauta delta dupa 2026-05-22
+Ultima actualizare: 2026-05-26
+Urmatoarea rulare: cauta delta dupa 2026-05-26
 
 ---
 
@@ -16,7 +16,9 @@ Urmatoarea rulare: cauta delta dupa 2026-05-22
 **Date concrete:**
 - Caruselele cu 5-7 slide-uri = 3.4x mai multe saves + 2.1x mai multe shares vs. imagine statica (sursa: TrueFutureMedia, mai 2026)
 - Caruselele = 114% mai mult engagement decat single-image (sursa: Krumzi/InstaCarousel 2026)
+- Caruselele = +109% mai mult engagement decat Reels pe Instagram (sursa: Buffer State of Social Engagement 2026, 52M+ posts analizate, ian-dec 2025)
 - Carusel reels (video carousel) = 10% engagement vs. 6% pentru reels normale (sursa: ReelBase.io 2026)
+- In nisa healthcare, caruselele = 4.5% engagement (cel mai ridicat format per nisa — sursa: Buffer 2026)
 
 **Formule S1 cu tractiune dovedita:**
 1. `Stat socant + "dar numai daca [conditie specifica]"` — stabileste autoritate + deschide gap
@@ -39,6 +41,7 @@ Surse:
 - https://reelbase.io/blog/instagram-carousel-reels-complete-guide (2026)
 - https://instacarousel.com/blog/carousel-hooks-that-stop-the-scroll/ (2026)
 - https://quadcubes.com/scroll-stopping-hooks-psychology-2026/ (2026)
+- https://buffer.com/resources/state-of-social-media-engagement-2026/ (2026, 52M+ posts ian-dec 2025)
 
 ---
 
@@ -51,6 +54,14 @@ Surse:
 - Hold rate > 60% in primele 3s = reach de 5-10x vs. hold rate < 40% (sursa: Deftsoft 2026)
 - Reel cu hook tip storytelling sau jump cut in primele 3s = 72% mai probabil sa devina viral (sursa: CreatorsJet 2026)
 - Text overlay aparut in prima secunda = 2-3 secunde extra watch time inainte ca audienta sa proceseze audioului
+- Reels 15-30 secunde = cea mai ridicata rata de completare; reels sub 90 secunde performat cel mai bine per Instagram (sursa: newengen.com Instagram Trends mai 2026)
+- Algoritmul evalueaza retentia la 3s, 10s si 20s — fiecare checkpoint conteaza (sursa: planable.io 2026)
+
+**Structura 3/8/12 confirmata (mai 2026):**
+- Secunda 0-3: hook — motiv sa nu scrollezi
+- Secunda ~8: build — confirmarea ca merita sa continui
+- Secunda ~12: payoff principal sau teasingul lui
+(sursa: newengen.com Instagram Trends mai 2026 / msn.com mai 2026)
 
 **Formule cu tractiune dovedita:**
 1. **Declaratie polarizanta** — o afirmatie cu care jumatate din audienta va fi in dezacord instantaneu ("Cel mai mare mit din [domeniu]")
@@ -63,6 +74,8 @@ Surse:
 ### DE TESTAT [incredere: MED]
 - Hook cu sunet neasteptat/off-putting primele 0.5s (efect de "ce-a fost aia?") — raportata tractiune dar fara date cuantificate
 - Fata care se uita direct in camera + intrebare verbala sincrona cu text = combinatia cea mai puternica per studii de atentie
+- Hook "nostalgie-la-realitate": "stai, chestia asta din copilaria mea chiar exista acum?" — confirmat potent mai 2026 (sursa: newengen.com mai 2026)
+- Hook "nu iti vine sa crezi dar trebuie sa surprind asta" + supercut — exemplu documentat: 16.5K likes + 897 shares (sursa: newengen.com mai 2026)
 
 ### RESPINS
 - Intro cu "Hey guys, buna ziua, azi vreau sa va povestesc despre..." = MORT definitiv 2026
@@ -74,6 +87,8 @@ Surse:
 - https://www.creatorsjet.com/blog/15-instagram-reel-hook-formulas-you-can-copy-today (2026)
 - https://thedesignsfirm.com/en/blog/viral-reel-hooks (2026)
 - https://vexub.com/blog/viral-short-form-video-hooks (2026)
+- https://newengen.com/insights/instagram-trends/ (mai 2026 — actualizat saptamanal)
+- https://www.msn.com/en-us/news/other/instagram-reels-trends-for-may-2026-spotlight-list-mood-and-film-inspired-formats/ (mai 2026)
 
 ---
 
@@ -107,28 +122,57 @@ Surse:
 **Adaptare i-vory:**
 - "Cum am adus 3 clienti noi unui salon in 48h fara niciun leu pe reclame" — specific + dovada + beneficiu clar
 
-### KINETO / AVC / REABILITARE [incredere: MED — date de principiu, nu rate concrete per nisa]
+### KINETO / AVC / REABILITARE [incredere: MED-HIGH — rate concrete per nisa adaugate mai 2026]
+
+**Date concrete noi (mai 2026):**
+- Healthcare Instagram engagement rate = 5% (medie per nisa) — cel mai sus din categoriile profesionale (sursa: Buffer 2026, 52M+ posts)
+- Healthcare carousele specifice = 4.5% engagement — formatul cel mai performant in nisa (sursa: Buffer 2026)
+- Educatie + personal development = 3-5% engagement — cel mai ridicat din toate categoriile (sursa: creatorflow.so 2026)
+- Mental health / terapie = 4.5-5.5% engagement Instagram (sursa: creatorflow.so / influenceflow.io 2026)
+- 77.4% din studenti in fizioterapie urmaresc cel putin un influencer fizioterapeut; 61% exprima incredere ridicata; 46% au cumparat produse recomandate (sursa: PMC / PubMed, studiu 2026)
+- Implicatie: audienta fizioterapeutilor pe social media are incredere ridicata = rata de conversie potential superioara altor nise medicale
+- TikTok engagement rate per platforma = 4.6% (global, 2026 — sursa: Influencer Marketing Factory 2026)
 
 **Ce functioneaza per surse:**
 - Journey continua (nu snapshot before/after) — update-uri de milestones pe parcursul recuperarii
 - "Fereastra de neuroplasticitate" — concept medical cu potential viral pentru educatie
 - Hook cu emotie + progres mic concret: "In saptamana 3 dupa AVC, pacientul nostru a reusit prima miscare a degetului"
 - Reels cu demonstrare tehnica (facilitare musculara, tapping) = tractiune pe Instagram conform cautarilor directe
+- Educatia care sparges mituri medicale populare = engagement crescut (pattern confirmat cross-nisa in medical)
 
 **Adaptare i-vory:**
 - "Medicii i-au spus ca nu va mai merge. In 6 saptamani de kinetoterapie..." — emotie + intriga + promisiune
 - "Ce faci in primele 48h dupa AVC determina cat de bine te recuperezi. Iata ce putini stiu." — urgenta + gap informational
+- "Iti arati exercitiile de kinetoterapie si faci invers. Iata de ce asta e normal." — implica gresala, reduce vina, ofera raspuns
 
-### LEGAL PENAL [incredere: LOW — surse insuficiente, date specifice lipsesc]
+### LEGAL PENAL [incredere: MED — 3 exemple virale documentate, fara rate exacte per-nisa RO]
 
-**Date gasite:** insuficiente pentru formule validate. Cautare viitoare necesara.
+**Date concrete — exemple virale documentate:**
+- Format "Vinovat sau Nevinovat?" (Guilty or Not Guilty): creator Ugo — 6.5M followeri pe TikTok. Formula: prezinti o situatie reala + intrebi audienta sa judece. Audienta comenteaza activ = engagement masiv. (sursa: LawRank TikTok for Lawyers 2025)
+- Comedy + educatie penala: creator Mike — 7M followeri TikTok. Formula: umor exagerat + explicatii despre aparare penala. (sursa: LawRank 2025)
+- Hook "Ce sa spui daca te opreste politia pentru..." — 50M vizualizari + 2M followeri in 6 saptamani. Cel mai rapid crestere documentata in nisa juridica. (sursa: rankings.io / LawRank 2026)
+- Hashtag #legaltips = 390.000 reels pe Instagram (mai 2026) — confirma volumul de cautare activ in nisa
 
-**Principii adaptate din general care se pot testa:**
-- Mituri despre sistem vs. realitate (myth-busting performat bine in toate nichele cu autoritate)
-- "Ce sa faci in primele 24h dupa [eveniment legal]" — urgenta + utilitate directa
-- Cifra neasteptata din jurisprudenta: "X% din dosarele penale ajung in judecata fara martori relevanti"
+**Formule dovedite pentru legal penal (adaptabile RO):**
+1. `"Vinovat sau nevinovat? [situatie specifica reala]"` — audienta judeca, comenteaza, da share la prieteni
+2. `"Ce sa spui / ce sa faci daca [scenariu cu politia / retinere / perchezitie]"` — urgenta + utilitate practica imediata
+3. `"Cel mai mare mit despre [subiect penal] pe care toti il cred si e fals"` — myth-busting cu autoritate
+4. `"Stii cat costa sa ignori asta?" + cifra / consecinta concreta` — miza directa
 
-**Nota:** GOL ACTIV — date concrete lipsesc. Prioritate cautare urmatoarea rulare.
+**Adaptare i-vory (RO):**
+- "Vinovat sau nevinovat? Un barbat refuza sa deschida portiera. Politistul ii sparge geamul. Cine are dreptate?"
+- "Esti retinut. Ai dreptul sa taci. Dar stii exact cand sa VORBESTI si cand sa NU?"
+- "Ce sa faci in primele 30 de minute dupa o retinere (ce 90% din oameni fac gresit)"
+- Myth-busting: "Nu, nu esti obligat sa dai telefonul la politist. Iata legea exacta."
+
+**Nota format:** Reeluri 30-45 secunde pentru avocati = optimal per rankings.io 2026. Educatie > entertainment pentru conversia in clienti reali.
+
+Surse:
+- https://lawrank.com/tiktok-for-lawyers/ (2025)
+- https://rankings.io/blog/instagram-for-lawyers/ (2026)
+- https://rankings.io/blog/law-firm-instagram-post-ideas/ (2026)
+- https://www.levitate.ai/blog-posts/how-successful-lawyers-are-owning-instagram-in-2026 (2026)
+- https://secure.instagram.com/popular/legal-tips/ (mai 2026 — 390K reels activi)
 
 ### E-COM PISICI [incredere: HIGH — date concrete TikTok Shop cu cifre reale]
 
@@ -154,6 +198,12 @@ Surse:
 - https://www.accio.com/business/tiktok_pet_trends (2026)
 - https://influencermarketinghub.com/tiktok-shop-campaigns-pet-brands/ (2026)
 - https://thewritersblockph.com/2025/01/13/how-physiotherapists-can-use-instagram-to-showcase-patient-recovery-stories/ (ian. 2025)
+- https://buffer.com/resources/state-of-social-media-engagement-2026/ (2026 — healthcare benchmark)
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC12392578/ (2026 — physiotherapy influencer trust study)
+- https://creatorflow.so/blog/instagram-engagement-rate-benchmarks-2026/ (feb 2026, 63M posts / 600K+ conturi)
+- https://lawrank.com/tiktok-for-lawyers/ (2025 — legal penal date)
+- https://rankings.io/blog/instagram-for-lawyers/ (2026 — legal penal date)
+- https://www.levitate.ai/blog-posts/how-successful-lawyers-are-owning-instagram-in-2026 (2026)
 
 ---
 
@@ -184,10 +234,14 @@ Surse:
 
 ## G5 — STRUCTURI NATURALE IN ROMANA (nu engleza tradusa)
 
-### BEST PRACTICE [incredere: LOW-MED — principii universale aplicate la contextul RO; date specifice RO lipsesc]
+### BEST PRACTICE [incredere: MED — date concrete de piata adaugate mai 2026]
 
-**Context piata:**
+**Context piata (date actualizate mai 2026):**
 - TikTok Romania = medie 32.5h/luna per user — cea mai mare din regiune (sursa: LighthousePR 2026)
+- TikTok Romania = 4.2M+ utilizatori activi; preferinta puternica si documentata pentru continut in limba romana (sursa: Favikon / Modash apr 2026)
+- Instagram Romania = 5.4M+ utilizatori; engagement maxim 17:00-20:00 weekdays (sursa: date agregate apr 2026)
+- TikTok Romania ore optime: 13:00-15:00 si 20:00-22:00 (sursa: date agregate piata RO 2026)
+- CHEIE: continut in romana performat 40-60% mai bine decat continut in engleza pentru acelasi cont (sursa: portugalbusinessesnews.com / date Romania 2026)
 - Continutul tradus literal din engleza suna fals; audienta romana are sensibilitate la ton artificial
 - Autenticitate > polish in Romania — tonul de "expert care vorbeste cu prietenul" performat mai bine decat tonul corporatist
 
@@ -236,11 +290,15 @@ Surse:
 - https://www.lighthousepr.ro/news/social-media-trends-for-2026-what-brands-and-agencies-in-romania-need-to-know (2026)
 - https://www.peinterneti.ro/p/e-2026-anul-cand-social-media-moare (2026)
 - Principii adaptate din: https://planable.io/blog/social-media-hooks/ (2026)
+- https://www.favikon.com/blog/top-romanian-influencers (2026)
+- https://www.modash.io/find-influencers/tiktok/romania (apr 2026)
+- https://www.portugalbusinessesnews.com/post/top-10-influencers-in-romania-in-2026 (2026)
 
 ---
 
 ## GOLURI ACTIVE (prioritate urmatoare rulare)
 
-- G3 / Legal penal: zero date concrete cu engagement real; cautare focusata necesara pe creatori din nisa juridica
-- G5 / Romana: lipsesc studii de caz sau exemple cu cifre reale din piata locala; necesita analiza de conturi RO cu tractiune
-- G3 / Kineto+AVC: lipsesc rate de engagement concrete, doar principii generale
+- G3 / Legal penal: PARTIAL ACOPERIT (mai 2026) — 3 exemple virale cu cifre + 4 formule adaptate. GOL RAMAS: rate de engagement per-cont RO specific in nisa juridica; exemple de avocati romani cu tractiune dovedita pe Instagram/TikTok
+- G5 / Romana: PARTIAL ACOPERIT (mai 2026) — date de volum (4.2M TikTok, 5.4M IG) + ore optime + 40-60% advantage romana vs. engleza. GOL RAMAS: exemple concrete de conturi RO de nisa (dental, legal, kineto) cu date de engagement reale
+- G3 / Kineto+AVC: ACOPERIT CU RATE (mai 2026) — healthcare 5% ER, carousele 4.5%, trust study 77.4%. GOL RAMAS: hook-uri specifice AVC cu exemple concrete de posturi cu tractiune mare (nu doar principii)
+- G3 / Marketing/SMB: lipsesc date per-nisa specifice pentru piata SMB romaneasca — cautare urmatoare rulare
