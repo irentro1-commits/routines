@@ -3,6 +3,56 @@ Ordinea: cel mai nou sus.
 
 ---
 
+## [2026-05-26] RULARE 2 — DELTA PE GOLURI ACTIVE
+
+**Stare anterioara:** RESEARCH.md initializat (22 mai). 3 goluri active: G3/legal penal, G3/kineto rate, G5/romana date concrete.
+
+**Delta adaugat la RESEARCH.md:**
+
+G3 / Legal Penal (LOW → MED):
+- 3 exemple virale documentate cu cifre reale: "Vinovat sau nevinovat?" (6.5M followeri), comedy+educatie penala (7M followeri), "Ce sa spui cand te opreste politia" (50M vizualizari, 2M followeri in 6 saptamani)
+- 4 formule de hook adaptabile pentru nisa penala RO (scenario judgment, "ce sa faci daca...", myth-busting, miza concreta)
+- #legaltips = 390K reels Instagram activi — confirma volum de nisa
+- Reels 30-45s = optimal pentru avocati per conversie in clienti
+- Surse: lawrank.com (2025), rankings.io (2026), levitate.ai (2026)
+
+G3 / Kineto+AVC (MED → MED-HIGH):
+- Healthcare ER Instagram = 5% (cel mai sus din categoriile profesionale) — Buffer 2026, 52M+ posts
+- Healthcare carusele = 4.5% engagement — formatul optim per nisa
+- Educatie/personal development = 3-5% ER (cel mai ridicat general)
+- 77.4% studenti fizioterapie urmaresc influenceri; 61% incredere ridicata; 46% au cumparat produse recomandate — confirma conversie potential ridicata
+- Surse: buffer.com (2026), pmc.ncbi.nlm.nih.gov (2026), creatorflow.so (feb 2026)
+
+G5 / Romana (LOW-MED → MED):
+- Confirmat: continut in romana = 40-60% mai bine decat engleza pe aceleasi conturi RO
+- TikTok Romania = 4.2M+ utilizatori activi + preferinta documentata pentru romana
+- Instagram Romania = 5.4M+ utilizatori; ore optime Instagram: 17-20 weekdays; TikTok: 13-15 si 20-22
+- Surse: favikon.com (2026), modash.io (apr 2026), portugalbusinessesnews.com (2026)
+
+G1 / Carusel (bonus update, nu gol):
+- +109% engagement carusele vs. Reels confirmat cu sursa mai solida (Buffer 2026, 52M+ posts)
+- Sursa anterioara (114% vs single-image) confirmata independent din alta directie
+
+G2 / Reels (bonus update, nu gol):
+- Regula 3/8/12 documentata: hook 0-3s, build ~8s, payoff ~12s (newengen.com mai 2026)
+- Reels 15-30s = highest completion rate; sub 90s = recomandat Instagram (mai 2026)
+- Hook "nostalgie-la-realitate" confirmat potent mai 2026
+- Exemplu concret cu cifre: 16.5K likes + 897 shares (sursa: newengen.com mai 2026)
+
+**Surse noi utilizate:** 12 URL-uri valide, toate 2025-2026
+**Surse respinse:** 0
+**Nivel incredere:** G3/legal MED (lipsesc date RO specifice); G3/kineto MED-HIGH; G5/romana MED
+
+**Goluri ramase pentru urmatoarea rulare:**
+1. G3/Legal — exemple de conturi RO de avocati penali cu tractiune documentata
+2. G5/Romana — conturi RO per nisa cu engagement real (nu doar volum utilizatori)
+3. G3/Kineto — hook-uri AVC specifice cu tractiune demonstrata (posturi reale, nu principii)
+4. G3/Marketing SMB — date per-nisa piata romaneasca
+
+**Urmatoarea rulare recomandata:** dupa 2026-06-09 (2 saptamani) sau la cerere pentru gol specific
+
+---
+
 ## [2026-05-22] RULARE 1 — INITIALIZARE COMPLETA
 
 **Stare anterioara:** gol (prima rulare, folder creat de la zero)
