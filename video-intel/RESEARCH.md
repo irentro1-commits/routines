@@ -1,5 +1,5 @@
 # VIDEO INTEL - i-vory Studio Research Base
-> Ultima actualizare: 2026-05-22 | Prima rulare
+> Ultima actualizare: 2026-05-27 | Rulare #2
 
 ---
 
@@ -138,21 +138,24 @@ Endpoint: always add where motion ends
 |-------|----------|-------------|------------|------|
 | Kling 3.0 | $0.10 | $1.00 | 120 sec | Cel mai bun raport calitate/pret |
 | Seedance 2.0 | ~$0.05-0.09 | ~$0.90 | 15 sec | Best value overall |
+| **HappyHorse-1.0** | **$0.14-0.24** | **$1.40-2.40** | **15 sec** | **#1 ELO global (apr 2026), Alibaba** |
 | Sora 2 (API) | $0.10 base / $0.30-0.50 pro | $1-5 | ~25 sec | SHUTDOWN sep 2026 |
 | Veo 3.1 Fast | $0.15 | $1.50 | - | Rapid prototyping |
 | Veo 3.1 Standard | $0.75 | $7.50 | - | 4K, best lip-sync |
-| Runway Gen-4.5 | ~$1.50/clip | $1.50 | - | Pro advertising |
+| Runway Gen-4.5 | ~$0.10-0.15 | ~$1.00-1.50 | - | Audio nativ din mai 2026 |
 
 **Abonamente lunare:**
 - Kling Standard: $10/mo (entry cel mai ieftin)
 - Seedance 2.0: ~$9/mo (cel mai bun raport volum/calitate)
-- Runway Standard: $12/mo (~62 clipuri de 10 sec)
-- Runway Pro: $76/mo (volum mare, features avansate)
+- Runway Basic: $12/mo | Standard: $28/mo | Pro: $76/mo
 - Google AI Pro (Veo 3.1): $19.99/mo
+- Higgsfield (aggregator Kling+Seedance+Veo): Starter $15/mo, Plus $49/mo, Ultra $129/mo
+
+**Higgsfield - nota importanta:** NU e model propriu. Este platforma aggregator care ruleaza Kling 2.6, Seedance 1.5, Veo 3 pe credit system unificat. Mai scump decat accesul direct. Util daca vrei toate modelele intr-un singur dashboard.
 
 **Recomandare i-vory Studio:**
 - Prototipare rapida: Seedance 2.0 ($9/mo) sau Kling Standard ($10/mo)
-- Productie finala calitate: Veo 3.1 sau Kling 3.0 Pro
+- Productie finala calitate: Veo 3.1 sau Kling 3.0 Pro sau **HappyHorse-1.0** (nou, de testat)
 - EVITA Sora (shutdown progresiv 2026)
 
 ### DE TESTAT
@@ -160,16 +163,21 @@ Endpoint: always add where motion ends
 - Generare batch in off-peak pentru cost efectiv la Kling
 - Seedance 2.0 pentru volum social media dentar (raport cel mai bun)
 - API direct vs abonament pentru volume lunare > 100 clipuri
+- **HappyHorse-1.0 I2V pentru animatii anatomice** (durata 15 sec, physics engine, #1 ELO)
 
 ### RESPINS
 
 - Sora pentru proiecte noi (shutdown confirmat API sep 2026)
 - Veo 3.1 Standard pentru draft/prototip (prea scump la $0.75/sec)
+- Higgsfield ca alternativa mai ieftina la Kling direct (e mai scump, nu mai ieftin)
 
 **Surse:**
 - BuildMVPFast API pricing apr 2026: https://www.buildmvpfast.com/api-costs/ai-video
 - LaoZhang cost guide 2026: https://blog.laozhang.ai/en/posts/how-much-does-ai-video-generator-cost
 - Vo3AI comparison: https://www.vo3ai.com/ai-video-generator-pricing-comparison
+- HappyHorse-1.0 pricing (apr 2026): https://aimlapi.com/blog/happy-horse-by-alibaba-cloud-full-model-overview-capabilities-pricing-and-use-cases
+- Runway Gen-4 pricing mai 2026: https://fairstack.ai/blog/runway-pricing
+- Higgsfield pricing: https://www.vo3ai.com/higgsfield-ai-pricing
 
 ---
 
@@ -211,23 +219,37 @@ Endpoint: always add where motion ends
 - Implant: "implant insurubat lent in os, cross-section view, clinical light"
 - Inflamatie gingivala: "gingiva se inroseste progresiv, close-up macro"
 
+**CONFIRMAT 2026-05-27 - Seedance 2.0 audio si romana:**
+- Seedance 2.0 suporta 8 limbi: EN, ZH, JA, KO, ES, FR, DE, PT
+- **ROMANA NU E INCLUSA.** Seedance 2.0 nu poate face lip-sync in romana.
+- Alternativa voiceover romana: ElevenLabs (clonare voce) sau Maestra.ai (dubbing AI)
+- Workflow corect pt Cezar: genereaza video fara voce → adauga voiceover roman separat
+
+**Runway Gen-4 update (mai 3, 2026) - relevant G5:**
+- Acum are audio nativ (lip-sync + SFX ambient) → alternativa Seedance pentru explainere
+- Dar: nu are specificat suport romana in audio nativ; lip-sync e generat din text prompt in EN
+- Concluzie: tot cel mai bun e video mut generat → voiceover romanian separat
+
 ### DE TESTAT
 
 - Veo 3.1 physics pentru apa/spray (detartraj) → realismul fluidelor
 - Kling Motion Transfer: inregistreaza miscarea mainii proprii cu instrument → aplica pe model anatomic
-- Seedance 2.0 audio nativ pentru explainer in romana (testat cu 8 limbi, ROM inclusa?)
-- Prompt cu "cross-section view dental anatomy" - cat de bine intelege modelele anatomice
+- **HappyHorse-1.0 I2V cu referinta model anatomic** (are Reference-to-Video endpoint, #1 physics)
+- Prompt cu "cross-section view dental anatomy" - cat de bine intelege modelele anatomice (netestat inca)
 
 ### RESPINS
 
 - Generare directa T2V "show tooth decay process microscopically" → halucinatii anatomice garantate
 - Footage clinic real ca I2V input fara consent pacient → risc GDPR + etic
 - Asteptarea unui tool specializat medical → nu exista in 2026, cel mai bun e workflow I2V cu referinte proprii
+- **Seedance 2.0 pentru voiceover roman nativ** → confirmat: limba nu e suportata
 
 **Surse:**
 - ZSky AI dental marketing blog: https://zsky.ai/blog/ai-video-for-dental-practices
 - VideoAI.me healthcare 2026: https://videoai.me/blog/ai-video-healthcare-medical-practices-patient-education-2026
 - VOKA dental animation portfolio: https://voka.io/our-medical-animation-video-portfolio/what-is-dental-caries-and-how-does-it-develop/
+- Seedance 2.0 limbi suportate (2026): https://www.cutout.pro/learn/blog-seedance-2-0-audio-guide/
+- Maestra.ai Romanian voiceover: https://maestra.ai/tools/video-dubber/romanian-voice-over
 
 ---
 
@@ -237,6 +259,10 @@ Endpoint: always add where motion ends
 |-------|-------------|---------|
 | Kling 3.0 | Motion Control unic, pret OK, durata 120s | Uneori suprarealist |
 | Veo 3.1 | Calitate vizuala top, lip-sync, physics | Scump la Standard |
-| Seedance 2.0 | Raport calitate/pret, audio nativ, leaderboard | Durata max 15s |
-| Runway Gen-4.5 | Director Mode, Motion Brush, commercial | Mai scump, fara audio nativ |
+| Seedance 2.0 | Raport calitate/pret, audio 8 limbi (fara ROM) | Durata max 15s, fara romana |
+| Runway Gen-4.5 | Director Mode, Motion Brush, audio nativ din mai 2026 | Mai scump |
+| **HappyHorse-1.0** | **#1 ELO global, Physics Engine, Ref-to-Video** | **Durata max 15s, API nou** |
+| Higgsfield | Platforma aggregator (Kling+Seedance+Veo unificat) | Mai scump decat direct, nu e model propriu |
 | Sora 2 | - | SHUTDOWN progresiv, evita pentru proiecte noi |
+
+> **NOU (mai 2026):** Runway Gen-4.5 adauga audio nativ (lip-sync + SFX ambiental) din 3 mai 2026. HappyHorse-1.0 (Alibaba) devine #1 ELO global cu API live din 27 apr 2026.
