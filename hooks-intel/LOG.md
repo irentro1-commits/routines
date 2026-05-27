@@ -3,6 +3,65 @@ Ordinea: cel mai nou sus.
 
 ---
 
+## [2026-05-27] RULARE 2 — GOLURI UMPLUTE PARTIAL
+
+**Stare anterioara:** 3 goluri active (G3/legal penal, G3/kineto, G5/romana)
+
+**Surse cautate:** 18 cautari web + 12 tentative WebFetch (majonitate 403); date extrase din rezumatele WebSearch confirmate cross-source
+
+**Delta adaugat la RESEARCH.md:**
+
+G1 (Carusel S1):
+- NOU: "Sends per Reach" (SPR) = semnalul oficial #1 al algoritmului Instagram 2026, confirmat de Adam Mosseri; ponderat 3-5x mai mult decat likes
+- NOU: Hook → Body → Send-Ask = structura pentru continut shareable via DM
+- NOU: Information-dense + visually minimal = "resource frame" — cel mai partajat tip prin DM
+- NOU: Formula 5 pentru S1 — "Asta e pentru [identitate specifica] care e obosit/a de [problema specifica]" = SPR ridicat
+- NOU: Caruselele = 22% mai multe saves decat single-image (confirmare aditionala)
+
+G2 (Reels 3 secunde):
+- NOU: "Faci asta gresit" > "Iata cum sa faci corect" — phrasing insight validat; gresala personala = imposibil de ignorat
+- NOU: 55% Reels views = non-followeri; Reels cu persoane = 25% mai multe click-uri; trending audio = 42% engagement
+- NOU: 50% din Reels vizionate fara sunet — confirmare cu data specifica
+
+G3 (Legal penal) — GOL UMPLUT PARTIAL:
+- NOU: Educational > fear-based = 34% mai mare conversie consultatie-la-client; 28% mai multe consultante
+- NOU: Engagement rate avocati Instagram = 4.23% la 2x/saptamana
+- NOU: Creatori dovediti — Mike Mandell (6M+ TikTok), Paige Sparks (407K Instagram)
+- NOU: 5 formule de hook validate EN cu adaptari RO (drepturi, primele 24h, mituril, ce sa NU spui)
+- RAMAS GOL: creatori romani activi din nisa juridica penala cu date de tractiune
+
+G3 (Kineto/AVC) — GOL UMPLUT PARTIAL:
+- NOU: Rate concrete — 3.5-4.5% wellness, 4.5% carousel healthcare, 3.89% la 2x/saptamana
+- NOU: Hook #1 = "lead with symptom + misconception" (nu exercitiu) = SALVAT
+- NOU: PT = highest-trust nisa, audienta non-casual (pacienti, medici care refereaza)
+- NOU: Saves = KPI #1 pentru healthcare (pacientul salveaza inainte de decizie medicala)
+- NOU: Format recurent — "Intreaba kinetoterapeutul [tema]" = engagement consistent
+- NOU: 41% pacienti = social media influenteaza alegerea furnizorului medical
+- RAMAS GOL: conturi RO de kineto/recuperare cu date reale
+
+G4 (Moarte):
+- NOU: Fear-based hook in nisa legala = confirmat inferior cu 34% — adaugat explicit ca de evitat
+
+G5 (Romana) — GOL UMPLUT PARTIAL:
+- NOU: Continut in romana = 40-60% mai mult engagement vs. engleza (surse agregate RO 2026)
+- NOU: Peak engagement = 17-20 in zilele de lucru (nivel incredere LOW-MED)
+- NOU: Social = search engine in Romania — hookul trebuie sa fie raspuns la intrebare existenta
+- NOU: Formula 5 — Hyper-specific relatability cu exemple per fiecare nisa i-vory
+- RAMAS GOL: studii de caz cu cifre reale de pe conturi RO existente
+
+**Surse noi utilizate:** 15 URL-uri valide, toate 2025-2026
+**Surse respinse:** WebFetch majoritar blocat (403) pe site-uri media; datele extrase din rezumatele WebSearch confirmate cross-source
+**Nivel incredere delta:** HIGH pentru SPR/Mosseri; MED pentru legal penal (EN); MED-HIGH pentru kineto rate; MED pentru Romania 40-60%; LOW-MED pentru timing RO
+
+**Goluri reziduale prioritare:**
+1. G3/Legal penal RO — conturi avocati romani activi pe social media cu date de tractiune reala
+2. G5/Romana — conturi RO per nisa (dental, kineto, SMB) cu metrici reale (saves, DM shares)
+3. G3/Kineto RO — conturi recuperare/AVC din Romania cu tractiune
+
+**Urmatoarea rulare recomandata:** dupa 2026-06-10 sau la cerere pentru gol specific
+
+---
+
 ## [2026-05-22] RULARE 1 — INITIALIZARE COMPLETA
 
 **Stare anterioara:** gol (prima rulare, folder creat de la zero)
