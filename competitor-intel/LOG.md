@@ -2,6 +2,42 @@
 
 ---
 
+## [2026-05-27] — RULARE 2 (delta fata de 2026-05-22)
+
+**Status:** Delta identificat pe toate 5 nisele. 12 jucatori/miscari noi adaugate.
+
+### Top miscari per nisa (DELTA)
+
+**G1 — Agentii social media RO:**
+- NION (nion.ro) = nou competitor in top; prezenta Forbes RO din 2021; pregateste Effie + IAB MIXX + Webstock 2026; public preturi social media — miscare rara in piata
+- Beans United / Andreea Gheorghiu = thought leadership activ IQads "Restart 2026": AI nu e shortcut, CRM+HubSpot = directia declarata [iqads.ro, mai 2026]
+- TikTok Shop RO iminent (Eastern Europe urmatoarea expansiune); ghid publicat de concepthubteam.ro; nicio agentie RO nu s-a pozitionat explicit ca expert inainte de lansare — gap real
+- Social commerce RO: 1.2B EUR estimat 2026, +25% YoY [dancovision.ro + altanet.ro, apr 2026]
+- Effie RO 2026: categorii noi AI + Social Media adaugate [iaa.ro, mar 2026]
+
+**G2 — Avocati penal RO:**
+- @avocatluminitaghica2 (Baroul Galati) = nou cont TikTok educational penal; video "Ce se intampla cand recursul este respins?"; prezenta Facebook + TikTok [tiktok.com, mai 2026]
+- Nisa emergenta confirmata: avocati pentru creatori de continut (YouTuberi/videochat/OnlyFans) vs. ANAF — blog avocatbogdanpalade.ro acopera partial; niciun brand personal puternic in aceasta sub-nisa
+- Instagram penal = inca neocupat (confirmat)
+
+**G3 — Cabinete dentare RO [MAJOR]:**
+- Dr. Alexandra Mircea (@dr.alexandra.mircea) = ~1M urmatori TikTok, 28.7M likes — prima dentista RO la aceasta scala; Clinica Dentalist Buc; educational + Oral-B brand deal; Speaker TEDx; inceput 2020 [viata-medicala.ro, mai 2026] — TREBUIA STIUT INAINTE
+- @salvadent.ro si @dr.wesmile.romania ataca partial transparenta preturilor pe TikTok ("cat costa implant") — gap era notat, e partial acoperit acum
+- @dr.teddystroe activ ortodontie adulti TikTok
+- @dentrust.romania (Focsani) cont IG activ — jucator regional
+
+**G4 — Kineto/recuperare AVC RO:**
+- @kineto_cu_andrei (Cluj) = cont TikTok activ cu exercitii kineto; video recente mar 2026; face kineto GENERAL (genunchi, spate, scolioza) dar NU AVC/neurologic — gap AVC inca neocupat confirmat [tiktok.com, mai 2026]
+- Arcadia Recuperare = SEO masiv AVC (hemiplegia, motricitate fina, terapie robotica) dar social media slab; reel IG izolat; autoritate web fara prezenta sociala = situatie exploatabila
+- Balneum Cluj = competitor local Cluj identificat
+
+**G5 — E-com/pisici RO:**
+- @pisicarele activ mai 2026 confirmat: reel "Controlul Calitatii loveste din nou..." [instagram.com, mai 2026]
+- @wildmanadventures = cel mai rapid crescator Animals&Pets IG RO mar 2026 (+18.1K/luna pe Travel) — wildlife/aventura, nu pisici; confirma apetit de crestere in nisa animale dar nu e competitor direct
+- Gap pisica-influencer cu personalitate + brand deals = inca neocupat in RO
+
+---
+
 ## [2026-05-22] — RULARE INITIALA (punctul 0)
 
 **Status:** Prima rulare. Nu existau fisiere anterioare. Am construit RESEARCH.md de la zero.
