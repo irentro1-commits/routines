@@ -1,6 +1,6 @@
 # GPT-IMAGE-2 RESEARCH — i-vory Studio
 
-Ultima actualizare: 2026-05-22
+Ultima actualizare: 2026-05-27
 Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "LOCKED PRODUCT")
 
 ---
@@ -86,10 +86,12 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - Alt workaround de testat: "render Romanian text: [TEXTUL] using proper comma-below diacritics, NOT cedilla variants"
 - **ACTIUNE NECESARA:** Test local cu ș/ț/ă - fotografiaza rezultatul, noteaza daca model foloseste cedilla (gresit: ş/ţ U+015F/U+0163) vs comma-below (corect: ș/ț U+0219/U+021B)
 
-**"in the spirit of [font clasic]" pentru evitare copyright:**
+**"in the spirit of [font clasic]" / "art movement approach" pentru tipografie:**
 - Tehnica din baseline v4, logica din punct de vedere legal
-- Nu am gasit confirmare directa 2+ useri ca functioneaza mai bine decat specificarea font-ului direct
-- DE TESTAT: "in the spirit of Bodoni" vs "Bodoni style" vs "Bodoni" — care produce rezultat mai fidel
+- Varianta formalizata gasita in surse tehnice (2026-05): "Replace specific font names with art movements or design styles to trigger the model's prior knowledge of an entire aesthetic system — font nu va exista in izolare; modelul va potrivi automat culori, layout si elemente decorative"
+- Aceasta confirma conceptul din baseline v4 ("in the spirit of") dar sursa e Apiyi.com (single-source flagat, fara autor verificabil)
+- INSA: cookbook spune "be concrete" si nu confirma explicit "art movement approach" vs specificare directa
+- DE TESTAT: "in the spirit of Bodoni" vs "Bodoni style" vs "Bodoni" si "Art Deco display serif" vs "Didot" — care produce rezultat mai fidel si mai sigur din punct de vedere copyright
 
 ### RESPINS
 
@@ -135,9 +137,17 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - Termenul exact "LOCKED PRODUCT" ca eticheta in prompt — logic consistent cu tehnicile confirmate dar nu am gasit confirmarea acestei formule exacte in teste comunitare
 - DE TESTAT: "LOCKED: [produs]" vs "PRESERVED: [produs]" vs "DO NOT CHANGE: [produs]" — care etichetare raspunde mai bine
 
+**Thinking Mode pentru consistenta batch (NOU 2026-05-27):**
+- Cu Thinking Mode activat (Plus/Pro/Business), gpt-image-2 genereaza pana la 8 imagini coerente dintr-un singur prompt cu personaje, obiecte si stil vizual consistente in intregul set
+- "Reasoning step" inainte de generare planifica layout, verifica text, si se auto-corecteaza
+- Relevant pentru locked product: genereaza batch de 8 cu Thinking Mode = consistenta fara drift
+- Sursa: OpenAI announcement (April 2026) confirmat de AVB benchmark + multiple tech blogs (buildfastwithai, morphic, mindstudio)
+- NIVEL: single-source (OpenAI marketing) confirmat de benchmark — DE TESTAT pentru use-case specific product packaging
+
 **Consistenta cross-generatii fara imagine de referinta (text-only img2img):**
 - Nu am gasit tehnici confirmate de 2+ useri pentru a bloca un produs fara imagine sursa
-- GAP de cercetat la urmatoarea rulare
+- Snippet gasit (chatgptimages.app, inaccessibil): "Preserve: [face, identity, pose, lighting, framing, background, geometry, text, layout] Constraints: [no extra objects, no redesign, no logo drift, no watermark]" — framework logic dar neverificat de useri
+- GAP persista
 
 ### RESPINS
 
@@ -162,10 +172,14 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - "visible micro pores", "subtle skin texture", "natural imperfections", "slight blurriness", "fingerprints, smudges, scratches" — ZeroLu + Anil-matcha (multiple creator credits)
 - CONFIRMAT: imperfection language > "perfect skin" language pentru anti-AI
 
-**Ancore de echipament real:**
+**Ancore de echipament real + framing candid/amateur:**
 - "RAW quality, unprocessed, unedited image with full iPhone camera quality" — @WolfRiccardo (ZeroLu)
+- "Amateur iPhone photo at Apple Park during the iPhone 20 keynote" — @patrickassale (X, ZeroLu 2026-05-27, NOU)
+- "a beautiful woman looking at her phone on the subway; a candid photo" — @AntCaveClub (X, ZeroLu 2026-05-27, NOU)
+- "Amateur photo of an open notebook... Shot from slightly above, natural daylight" — @patrickassale (ZeroLu)
 - "shot on iPhone", "35mm film photography", "Sony α7R V" — multiple surse si creatori
 - Cookbook: "prompt the model as if a real photo is being captured in the moment. Use photography language"
+- CONFIRMAT: keyword "candid" si "amateur iPhone photo" functioneaza ca framing distinct — 3 handles X independenti (@WolfRiccardo, @patrickassale, @AntCaveClub) cu 4 exemple verificate
 
 **Era photography pentru autenticitate temporala:**
 - "2003 digital camera family snapshot" — @pangyusio (ZeroLu) — grain si compresie specifica epocii
@@ -177,11 +191,6 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - "natural window light", "tungsten-vs-neon color mixing" — confirmat de multiple surse
 
 ### DE TESTAT
-
-**"Candid mood" / "amateur photo" framing:**
-- Mentionat in YouMind GitHub dar single-source ca tehnica specifica
-- Logica: reduce "posed" AI look
-- DE TESTAT: adaugare "candid, unposed, amateur photo aesthetic" la hero shots
 
 **Anonimizare cu censor blocks:**
 - YouMind GitHub: "opaque rectangular masks covering faces while preserving identity context"
@@ -229,6 +238,18 @@ Exemple verificate cu autori reali din ZeroLu/awesome-gpt-image (GitHub, colecti
 - Prompt core: "77 (cat's name) X KFC — absolutely consistent in appearance and coloring"
 - Tehnica: cross-brand collab cu consistenta fortata explicit
 - Aplicare i-vory: collab campaign visual
+
+**7. Apple Park Event iPhone Shot** — @patrickassale (X, ZeroLu 2026-05-27)
+- Prompt core: "Amateur iPhone photo at Apple Park during the iPhone 20 keynote"
+- Tehnica: "amateur iPhone photo" + eveniment real = credibilitate sociala maxima
+- Aplicare i-vory: event / launch photography cu produs in scena
+- URL: https://x.com/patrickassale/status/2044687244368441742
+
+**8. Urban Subway Candid** — @AntCaveClub (X, ZeroLu 2026-05-27)
+- Prompt core: "A beautiful woman looking at her phone on the subway; a candid photo"
+- Tehnica: "candid" keyword + scena urbana = zero AI-posed look
+- Aplicare i-vory: lifestyle photography cu produs in mana / context urban
+- URL: https://x.com/AntCaveClub/status/2047136306485133428
 
 ### DE TESTAT
 
