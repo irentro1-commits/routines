@@ -3,6 +3,51 @@
 
 ---
 
+## [2026-05-27] RULARE #2 - Delta pe golurile din rularea anterioara + noutati 5 zile
+
+**Status:** Delta gasit pe 4 din 5 goluri deschise. 1 gol ramas.
+
+**Surse consultate:** 7 cautari web, ~30 URL-uri unice, mai 2026.
+
+**Delta adaugat:**
+
+### G4 - Cost / modele NOU:
+- HappyHorse-1.0 (Alibaba) confirmat #1 ELO global (Artificial Analysis, apr 2026)
+  - API live din 27 apr 2026 via fal.ai, Alibaba Bailian, WaveSpeed
+  - Pret: $0.14-$0.24/sec (720p-1080p), durata max 15 sec/clip
+  - Are Reference-to-Video endpoint (relevant G2 consistenta)
+  - Physics Engine Layer proprietar - cel mai bun la physics simulare
+  - Sursa: CNBC 10 apr 2026, aimlapi.com
+- Runway Gen-4.5 UPDATE (3 mai 2026): adauga audio nativ (lip-sync + SFX ambiental)
+  - Corectie tabel anterior: "fara audio nativ" nu mai e valabil
+  - Pricing API: ~$0.10-0.15/sec efectiv
+  - Abonamente noi: Basic $12, Standard $28, Pro $76
+  - Sursa: vo3ai.com blog 3 mai 2026, releasebot.io
+- Higgsfield CLARIFICAT: nu e model propriu, e platforma aggregator
+  - Ruleaza Kling 2.6, Seedance 1.5, Veo 3 pe credit system propriu
+  - Pret: Starter $15, Plus $49, Ultra $129/mo - mai scump decat direct
+  - Kling 3.0 pe Higgsfield: ~6 credite/video (5 sec); Veo 3: 58 credite/video (8 sec)
+  - Concluzie: util ca dashboard unificat, nu ca solutie cost-eficienta
+
+### G5 - Dental CONFIRMAT:
+- Seedance 2.0 romana: INCHIS. Confirmat ca NU suporta romana (8 limbi: EN/ZH/JA/KO/ES/FR/DE/PT)
+  - Voiceover roman → ElevenLabs (clonare voce) sau Maestra.ai (dubbing AI)
+  - Workflow recomandat: genereaza video mut → adauga voiceover separat
+  - Sursa: cutout.pro Seedance 2.0 audio guide, maestra.ai
+- Runway Gen-4.5 audio nativ nu rezolva problema romana (lip-sync generat in EN din prompt)
+- "cross-section dental anatomy" prompt: inca fara test publicat → ramas DE TESTAT
+
+### Model nou de adaugat in peisaj:
+- HappyHorse-1.0: de inclus in rotatie de test pentru G5 (Reference-to-Video + physics = relevant pentru anatomie)
+
+**Goluri ramase (pentru urmatoarea rulare):**
+- [ ] HappyHorse-1.0 testat pe referinta model anatomic dentar (I2V/Ref-to-Video)
+- [ ] Prompt "cross-section view dental anatomy" - test real cu Kling 3.0 sau HappyHorse
+- [ ] Kling Motion Transfer pe miscare instrument chirurgical (ramas din rularea 1)
+- [ ] Veo 3.1 physics pentru apa/spray detartraj (ramas din rularea 1)
+
+---
+
 ## [2026-05-22] RULARE INITIALA - Prima populare completa
 
 **Status:** Prima rulare, folder inexistent anterior. Creat de la zero.
