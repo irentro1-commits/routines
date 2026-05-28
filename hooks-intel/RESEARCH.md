@@ -1,6 +1,6 @@
 # RESEARCH.md — i-vory Studio Hook Intelligence
-Ultima actualizare: 2026-05-22
-Urmatoarea rulare: cauta delta dupa 2026-05-22
+Ultima actualizare: 2026-05-28
+Urmatoarea rulare: cauta delta dupa 2026-06-11
 
 ---
 
@@ -107,28 +107,60 @@ Surse:
 **Adaptare i-vory:**
 - "Cum am adus 3 clienti noi unui salon in 48h fara niciun leu pe reclame" — specific + dovada + beneficiu clar
 
-### KINETO / AVC / REABILITARE [incredere: MED — date de principiu, nu rate concrete per nisa]
+### KINETO / AVC / REABILITARE [incredere: MED-HIGH — rate concrete adaugate mai 2026]
+
+**Date concrete [ADAUGAT 2026-05-28]:**
+- Healthcare Instagram: 3.89% engagement la 2 posts/saptamana = performanta optima (sursa: media.market.us 2026)
+- Caruselele healthcare = 4.5% engagement rate — cel mai performant format in nisa medicala (sursa: dashsocial.com 2026)
+- Video educational optim: 30-45 secunde pentru kineto (suficient pentru valoare, suficient de scurt pentru completion)
+- TikTok avg engagement rate 2.5% vs. Instagram 0.45% in 2026 — TikTok avantajos pentru reach educational (sursa: planable.io 2026)
+- Stroke recovery journey content = trending pe TikTok cu hashtag-uri active: #strokewarrior, #strokesurvivor, #strokerecovery
 
 **Ce functioneaza per surse:**
 - Journey continua (nu snapshot before/after) — update-uri de milestones pe parcursul recuperarii
 - "Fereastra de neuroplasticitate" — concept medical cu potential viral pentru educatie
 - Hook cu emotie + progres mic concret: "In saptamana 3 dupa AVC, pacientul nostru a reusit prima miscare a degetului"
 - Reels cu demonstrare tehnica (facilitare musculara, tapping) = tractiune pe Instagram conform cautarilor directe
+- Milestone hook confirmat cu tractiune TikTok: "What a difference 2 years can make in stroke recovery" — naratiune temporala cu rezultat vizibil
+- Conturi RO active in nisa: @kinetoexpress (Instagram), @mesteru_de_oase (TikTok) — confirma piata activa in RO
 
 **Adaptare i-vory:**
 - "Medicii i-au spus ca nu va mai merge. In 6 saptamani de kinetoterapie..." — emotie + intriga + promisiune
 - "Ce faci in primele 48h dupa AVC determina cat de bine te recuperezi. Iata ce putini stiu." — urgenta + gap informational
+- [NOU] "Saptamana 1: nu putea misca degetele. Saptamana 8: a mers singur." — milestone journey, carusel cu update-uri progresive
 
-### LEGAL PENAL [incredere: LOW — surse insuficiente, date specifice lipsesc]
+Surse noi:
+- https://media.market.us/social-media-in-healthcare-statistics/ (2026)
+- https://www.dashsocial.com/social-media-benchmarks/wellness-industry (2026)
+- https://planable.io/blog/social-media-engagement-rate/ (2026)
 
-**Date gasite:** insuficiente pentru formule validate. Cautare viitoare necesara.
+### LEGAL PENAL [incredere: MED — date internationale, fara date concrete din piata RO]
 
-**Principii adaptate din general care se pot testa:**
-- Mituri despre sistem vs. realitate (myth-busting performat bine in toate nichele cu autoritate)
-- "Ce sa faci in primele 24h dupa [eveniment legal]" — urgenta + utilitate directa
-- Cifra neasteptata din jurisprudenta: "X% din dosarele penale ajung in judecata fara martori relevanti"
+**Date concrete [ADAUGAT 2026-05-28]:**
+- Legal/professional services Instagram: 4.23% engagement la 2 posts/saptamana = rata optima (sursa: growth-onomics.com 2026)
+- Facebook domina lead generation pentru avocati penalisti: 67% din consultatii vin din Facebook (sursa: rankings.io 2026) — audienta 25-55 ani
+- TikTok = in crestere pentru nisa avocatilor, rol educational nu de conversie directa (sursa: growlaw.co 2026)
+- Educational content (drepturi, proceduri, myth-busting) > promotional pe toate platformele pentru avocati (confirmat cross-source)
 
-**Nota:** GOL ACTIV — date concrete lipsesc. Prioritate cautare urmatoarea rulare.
+**Creatori virali confirmati (EN) — formule de referinta:**
+- Mike Mandell: 7M followeri — format: role-play + scenarii educationale, ton accesibil nu academic
+- Dan Cogdell: 100k+ followeri in 3 luni — format: declaratie directa + explicatie procedurala
+- Formula #1 cu tractiune dovedita: "Nu esti obligat sa vorbesti. Nu esti obligat sa dai telefonul. Ai drepturi." + demonstrare practica
+- Formula #2: Myth-busting legal — "Crezi ca [mit comun]. Nu e asa. Iata realitatea." (polarizant + educational)
+- Formula #3: "Ce sa faci in primele [X min/ore] dupa [eveniment legal]" — urgenta + utilitate directa
+
+**Adaptare i-vory (romana) [DE TESTAT]:**
+- "Ai dreptul sa nu raspunzi. Politia nu iti poate lua telefonul fara mandat. Iata ce ai voie sa faci in primele 10 minute." — drepturi concrete + actionabil
+- "Credeti ca marturisirea reduce pedeapsa? In 80% din cazuri, gresiti." — cifra impactanta + myth-busting (cifra trebuie verificata cu jurisprudenta RO)
+- "Dosarul tau penal se prescrie in [X ani]. Stiai?" — gap informational + relevent pentru audienta
+
+**Nota:** Formule validate international, adaptare la contextul juridic RO necesita verificare cu avocat. Date RO specifice (engagement, lead conversion) inca lipsesc.
+
+Surse noi:
+- https://growth-onomics.com/2026-social-media-benchmarks-by-industry/ (2026)
+- https://rankings.io/blog/social-media-for-lawyers/ (2026)
+- https://growlaw.co/blog/tiktok-for-lawyers (2026)
+- https://www.collegesoflaw.edu/blog/2024/12/12/tiktok-lawyers/ (dec. 2024)
 
 ### E-COM PISICI [incredere: HIGH — date concrete TikTok Shop cu cifre reale]
 
@@ -184,12 +216,22 @@ Surse:
 
 ## G5 — STRUCTURI NATURALE IN ROMANA (nu engleza tradusa)
 
-### BEST PRACTICE [incredere: LOW-MED — principii universale aplicate la contextul RO; date specifice RO lipsesc]
+### BEST PRACTICE [incredere: MED — context piata confirmat cu date, exemple concrete per hook lipsesc inca]
 
-**Context piata:**
+**Context piata [ACTUALIZAT 2026-05-28]:**
 - TikTok Romania = medie 32.5h/luna per user — cea mai mare din regiune (sursa: LighthousePR 2026)
+- TikTok Romania: 8.71M useri 18+ (late 2025); 57% din adulti ajunsi prin TikTok ads (sursa: DataReportal 2026)
+- Instagram Romania: +500k useri in 3 luni (iulieoct. 2025), crestere 9.1% — piata in expansiune (sursa: DataReportal 2026)
+- 70%+ completion rate = threshold pentru viral TikTok RO in 2026, in crestere de la 50% in 2024 — audienta mai pretentioasa
+- First-hour engagement determina 80% din potential viral al unui clip (sursa: VisionFlow 2026)
+- Algoritmul TikTok detecteaza continut "prea comercial" in 2026; UGC, fata reala, autenticitate vizibila = avantaj algoritmic
 - Continutul tradus literal din engleza suna fals; audienta romana are sensibilitate la ton artificial
 - Autenticitate > polish in Romania — tonul de "expert care vorbeste cu prietenul" performat mai bine decat tonul corporatist
+
+**Formula RO CONFIRMATA per VisionFlow [ADAUGAT 2026-05-28]:**
+- NU: "Buna ziua, suntem firma X si azi va prezentam..."
+- DA: Incepe cu REZULTATUL — "Uite cum au obtinut X" sau "Asta e cel mai bun [produs] din [oras]"
+- Seriile de hook validate pentru RO: "3 greseli...", "Adevarul despre...", "Inainte/dupa...", "De ce nu merge..."
 
 **Structuri care suna natural in romana:**
 
@@ -236,11 +278,14 @@ Surse:
 - https://www.lighthousepr.ro/news/social-media-trends-for-2026-what-brands-and-agencies-in-romania-need-to-know (2026)
 - https://www.peinterneti.ro/p/e-2026-anul-cand-social-media-moare (2026)
 - Principii adaptate din: https://planable.io/blog/social-media-hooks/ (2026)
+- https://datareportal.com/reports/digital-2026-romania (DataReportal, 2026) [NOU]
+- https://visionflow.ro/algoritm-tiktok-2026-vizualizari-virale (mai 2026) [NOU]
 
 ---
 
 ## GOLURI ACTIVE (prioritate urmatoare rulare)
 
-- G3 / Legal penal: zero date concrete cu engagement real; cautare focusata necesara pe creatori din nisa juridica
-- G5 / Romana: lipsesc studii de caz sau exemple cu cifre reale din piata locala; necesita analiza de conturi RO cu tractiune
-- G3 / Kineto+AVC: lipsesc rate de engagement concrete, doar principii generale
+- G3 / Legal penal: formule internationale validate; GOL RAMAS = date RO specifice (engagement real, lead conversion, conturi avocati RO cu tractiune)
+- G5 / Romana: context piata confirmat cu cifre; GOL RAMAS = exemple concrete RO cu saves/shares reale (studii de caz conturi locale)
+- G3 / Kineto+AVC: rate de engagement adaugate; GOL RAMAS = conturi RO cu date proprii (@kinetoexpress, @mesteru_de_oase — analiza necesara)
+- G3 / Marketing SMB: inca lipsesc date per-nisa cu cifre proprii RO
