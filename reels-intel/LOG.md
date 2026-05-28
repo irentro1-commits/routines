@@ -3,6 +3,42 @@
 
 ---
 
+## [2026-05-28] — RUN 2 (DELTA +6 zile)
+
+**Status:** Delta gasit. RESEARCH.md actualizat.
+
+**G1 — Audio (5 sunete noi adaugate la ACTIV):**
+- "And Emily... That's All" (Meryl Streep / dialog DWP2) — [RIDICAT] cel mai mare sunet TikTok saptamana 27 mai; vibe-contrast format; organic only (nu paid).
+- Bleeding Love (Leona Lewis, nostalgie 2008) — [MEDIU] lip-sync obsesie ironica; millennial nostalgia wave confirmat.
+- Loving Life Again (Ella Langley) — [MEDIU] declaration B-roll, grateful energy.
+- EVERYTHING HALLELUJAH (Justin Bieber) — [MEDIU] listing format brand-friendly.
+- Be Like a Woman (Chris Rainbow) — [MEDIU] aesthetic supercut fara voce.
+- DE TESTAT adaugat: Millennial nostalgia wave structural + CORTIS "REDRED" ca semnal de mechanic challenge.
+
+**G2 — Formate (3 formate noi adaugate):**
+- FORMAT 6: Vibe-Contrast Skit (legat de "And Emily..." — [RIDICAT])
+- FORMAT 7: "This Looks So Cool" Product Reveal — [MEDIU] curiosity gap pe livrabil/spatiu
+- FORMAT 8: "Smile Lines" / Earned Pride — [MEDIU] hook pe milestone real, sub 20 sec; sursa socialbee.com 27 mai
+
+**G3 — Fit nise (6 randuri noi in tabel):**
+- P1 nou: Vibe-Contrast Skit, "Smile Lines" format, "This Looks So Cool" Reveal
+- P2 nou: Bleeding Love (obsesia craft), Millennial nostalgie structural
+- Insights noi: Millennial nostalgia wave + Authentic > aspirational reconfirmat + fereastra "And Emily..."
+
+**Goluri ramase:**
+- Audio RO specific: tokchart RO necesita subscription platit — date slabe
+- "Girl to Girl" (audio Smile Lines): artist neconfirmat, de verificat in app
+- Fereastra sunet "And Emily...": estimata 10-14 zile, de remonitorizat saptamana viitoare
+
+**Surse noi folosite (mai 2026):**
+- socialpilot.co — "TikTok Trends May 2026: What's Trending Right Now" (27 mai 2026)
+- socialbee.com — "The latest Instagram trends (May 27, 2026)"
+- newengen.com — "Instagram Trends: May 2026 — Updated Weekly"
+- buffer.com — "13 Trending Sounds on Instagram in May 2026"
+- tokchart.com — top trending sounds 27-28 mai 2026
+
+---
+
 ## [2026-05-22] — RUN INITIAL (PUNCT 0)
 
 **Status:** Prima rulare. Niciun fisier anterior. RESEARCH.md creat de la zero.
