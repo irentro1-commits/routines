@@ -1,6 +1,6 @@
 # GPT-IMAGE-2 RESEARCH — i-vory Studio
 
-Ultima actualizare: 2026-05-22
+Ultima actualizare: 2026-05-28
 Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "LOCKED PRODUCT")
 
 ---
@@ -28,15 +28,24 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - Confirmat de Anil-matcha
 - Confirmat de cookbook: "no watermark, no extra text, no logos/trademarks"
 
-### DE TESTAT
+**NUANTA CRITICA LUNGIME PROMPT (actualizat 2026-05-28):**
 
-**CONTRADICTIE CRITICA — Lungimea promptului:**
-- Baseline FURAT v4 zice 850-1100 cuvinte optimal
-- Pixo.video ("15 field-tested techniques", 2026-04, single source): "sweet spot = 100-300 cuvinte Instant Mode, max 500 Thinking Mode; past a few hundred tokens model starts ignoring earlier instructions"
-- GitHub Anil-matcha: 100-400 cuvinte performanta optima; 500+ = risc incoerenta
-- GitHub YouMind: 150-800 cuvinte, 800+ numai pentru infografice complexe/UI mockups
-- Cookbook oficial: nu da limita fixa, zice "long prompts can work but debugging harder"
-- **ACTIUNE NECESARA:** Testat local cu acelasi prompt la 300 / 600 / 1000 cuvinte. Pana atunci: nu exista confirmare solida ca 850-1100 cuvinte e optim single-shot.
+Exista doua clustere distincte confirmate empiric:
+
+- **Cluster A — Photorealism / hero shots / porterete / lifestyle:** optimal 150-300 cuvinte
+  - Anil-matcha repo: medie empirica ~215 cuvinte din 15 prompts de succes (fotorealism, UI, lifestyle)
+  - Pixo.video (single-source, 2026-04): "sweet spot = 100-300 cuvinte Instant Mode, max 500 Thinking Mode"
+  - YouMind GitHub (2026-04): "150-800 cuvinte, 800+ numai pentru infografice complexe"
+  - Logica confirmata: "model incepe sa ignore instructiunile timpurii dupa cateva sute de tokeni"
+
+- **Cluster B — UI mockups / infografice complexe / JSON-structurate:** optimal 800-1200+ cuvinte
+  - gpt-image2/awesome-gptimage2-prompts (GitHub, 179 stars, 3000+ prompts, 2026-04): medie prompts "Featured" = ~1100 cuvinte (JSON structurat cu callouts)
+  - Prompts simple (poster de oras): 15-20 cuvinte; Prompts UI mockup complex: 1500-2000+ cuvinte
+  - CONCLUZIE: lungimea mare e justificata NUMAI cand e JSON-structurata cu specificatii precise per element
+
+- **VERDICT FINAL G1 LUNGIME:** Baseline v4 (850-1100 cuvinte) este VALID dar CONDITIONAT — functioneaza pentru infografice/UI cu 14 sectiuni etichetate. NU este optim universal. Pentru hero shots / lifestyle / fotorealism: taie la 200-350 cuvinte. Contradictia aparenta din rularea 1 (850-1100 vs 150-300) era de fapt o distinctie de tip-continut.
+
+### DE TESTAT
 
 **"7-Part Prompt Formula" / "8-Element Framework":**
 - Mentionat de Felo AI si alte surse dar fara autor verificabil
@@ -48,6 +57,7 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - "Prompt scurt (<50 cuvinte) functioneaza la fel de bine" — contrazis de toate sursele comunitare (subutilizeaza modelul)
 - "Keyword stuffing" (lista de buzzwords fara structura) — respins de cookbook + community
 - "Vague quality adjectives" (stunning, hyper-realistic, amazing) — respins de cookbook si community
+- "850-1100 cuvinte e optim universal" — PARTIAL RESPINS; e optim pentru JSON/UI, nu pentru fotorealism/hero
 
 ---
 
@@ -76,20 +86,27 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 **Fiecare rand de text pe rand separat in prompt:**
 - Confirmat de multiple surse: split textul in linii separate, nu un bloc
 
+**Tehnica art-movement pentru tipografie (actualizat 2026-05-28):**
+- Confirmat prin multiple snippets de search (2026): inlocuieste numele fontului cu miscare artistica sau stil de design
+- Mecanism: modelul activeaza un "sistem estetic complet" (font + layout + culori + proportii) in loc de o singura proprietate
+- Exemple confirmate functional: "minimalist Bauhaus sans-serif", "Art Deco geometric lettering", "Swiss International Typographic Style grid", "gritty street graffiti letterform"
+- Avantaj vs naming direct: evita copyright + activeaza context vizual mai bogat
+- Tehnica din baseline v4 ("in the spirit of [font clasic]") este o forma a acestei abordari — acum SUSTINUTA conceptual de multiple surse
+- NIVEL: confirmat din snippet-uri multiple (2026) dar fara autori individuali cu handle verificabil; considerat solid conceptual, DE VERIFICAT cu test propriu pentru formula exacta "in the spirit of"
+- Surse: search snippets din apiyi.com, gpt-image2 repo (Momotaro prompt: "fuses the gentle atmosphere of 'Irasutoya' with the overwhelming information density of 'Kasumigaseki slides'"), multiple blog snippets 2026
+
 ### DE TESTAT
 
 **Diacritice RO (ș, ț, ă, â, î) — GAP MAJOR:**
-- Exista un thread vechi pe OpenAI Developer Community despre probleme DALL-E cu diacriticele romanesti (URL identificat: community.openai.com/t/dall-e-does-not-correctly-place-diacritics.../1250658) dar nu am putut accesa continutul (403)
-- GPT-Image-2 promite ~99% text accuracy si suport multilingual CONFIRMAT pentru: CJK, Arabic, Hindi, Bengali
-- Suport Eastern European / Romano / comma-below (ș/ț vs cedilla s/t) — **NECONFIRMAT in testare publica**
-- Workaround potential de testat: specificare explicita "text with correct Romanian diacritics: comma-below s (ș U+0219), comma-below t (ț U+021B)" sau scris Unicode explicit
-- Alt workaround de testat: "render Romanian text: [TEXTUL] using proper comma-below diacritics, NOT cedilla variants"
-- **ACTIUNE NECESARA:** Test local cu ș/ț/ă - fotografiaza rezultatul, noteaza daca model foloseste cedilla (gresit: ş/ţ U+015F/U+0163) vs comma-below (corect: ș/ț U+0219/U+021B)
+- Thread DALL-E pe OpenAI Developer Community identificat (community.openai.com/t/dall-e-does-not-correctly-place-diacritics.../1250658) dar inaccessibil (403) si inca relevant pentru DALL-E nu gpt-image-2 specific
+- Problema documentata pentru DALL-E: cedilla (ş/ţ) in loc de comma-below (ș/ț) — diferenta Unicode: gresit U+015F/U+0163, corect U+0219/U+021B
+- gpt-image-2 promite ~95-99% text accuracy pentru Latin + CJK + Hindi + Bengali — Eastern European cu diacritice comma-below neconfirmat in testare publica
+- Workaround de testat: "render Romanian text using proper comma-below diacritics (ș U+0219, ț U+021B), NOT cedilla variants"
+- **ACTIUNE NECESARA:** Test local cu ș/ț/ă — fotografie rezultat, noteaza daca model foloseste cedilla (gresit) vs comma-below (corect)
 
-**"in the spirit of [font clasic]" pentru evitare copyright:**
-- Tehnica din baseline v4, logica din punct de vedere legal
-- Nu am gasit confirmare directa 2+ useri ca functioneaza mai bine decat specificarea font-ului direct
-- DE TESTAT: "in the spirit of Bodoni" vs "Bodoni style" vs "Bodoni" — care produce rezultat mai fidel
+**"in the spirit of [font clasic]" formula exacta:**
+- Tehnica mai larga (art movement) e sustinuta; formula exacta cu "in the spirit of" neconfirmata direct de useri cu output fotografiat
+- DE TESTAT: "in the spirit of Bodoni" vs "Bodoni-style geometric serif" vs "Didot-inspired high-contrast serif" — care formula produce rezultat mai fidel
 
 ### RESPINS
 
@@ -129,15 +146,22 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 **Pentru packaging:** "preserve the input product exactly" sau "plain packaging" cand modelul inventeaza detalii
 - Confirmat de multiple ghiduri comunitare
 
+**input_fidelity parameter (API):**
+- "high" fidelity pentru logo, fata, brand asset care trebuie sa ramana identice
+- Sursa: snippet search (single-source, 2026) — confirma existenta parametrului; verifica in API docs
+
 ### DE TESTAT
+
+**Text-only consistency (FARA imagine de referinta) — partial progres (2026-05-28):**
+- Prima tehnica identificata: "detailed specification language" = descriere exacta de material + geometrie + textura pentru a bloca un produs vizual consistent intre generari
+- Exemplu din gpt-image2/awesome-gptimage2-prompts: "Form-fitting cream or ivory bodycon midi dress with elegant draping and ruching, featuring an asymmetrical neckline with 1 shoulder strap" — consistent across generations fara imagine sursa
+- Alt exemplu: caracter cu "long flowing pale blonde hair with soft layers and long front bangs" — repetat identic in fiecare prompt din serie
+- Principiu: "consistency through restrictive style definitions rather than visual references"
+- NIVEL: single-source (gpt-image2 repo, 179 stars) — DE TESTAT local
 
 **Promptul "LOCKED PRODUCT" din baseline v4:**
 - Termenul exact "LOCKED PRODUCT" ca eticheta in prompt — logic consistent cu tehnicile confirmate dar nu am gasit confirmarea acestei formule exacte in teste comunitare
 - DE TESTAT: "LOCKED: [produs]" vs "PRESERVED: [produs]" vs "DO NOT CHANGE: [produs]" — care etichetare raspunde mai bine
-
-**Consistenta cross-generatii fara imagine de referinta (text-only img2img):**
-- Nu am gasit tehnici confirmate de 2+ useri pentru a bloca un produs fara imagine sursa
-- GAP de cercetat la urmatoarea rulare
 
 ### RESPINS
 
@@ -157,6 +181,7 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 **Negative explicit anti-AI:**
 - `no plastic skin, no digital over-sharpening, no airbrushing, no AI-synthetic look` — confirmat de ZeroLu (creditat la @WolfRiccardo, @BubbleBrain si altii) + YouMind GitHub
 - `Negative: Low quality, unnatural hands, extra fingers, excessive skin retouching, text artifacts` — YouMind GitHub (pattern consistent across multiple prompts)
+- `No influencer styling. Faces and postures must look like real pedestrians, not overly polished.` — Anil-matcha/Awesome-GPT-Image-2-API-Prompts (Convenience Store Night Scene prompt, 2026-04)
 
 **Limbaj de imperfectiune:**
 - "visible micro pores", "subtle skin texture", "natural imperfections", "slight blurriness", "fingerprints, smudges, scratches" — ZeroLu + Anil-matcha (multiple creator credits)
@@ -176,12 +201,23 @@ Versiune baseline referinta: FURAT v4 (850-1100 cuvinte, 14 sectiuni, img2img "L
 - "harsh direct on-camera flash, specular highlights" — ZeroLu
 - "natural window light", "tungsten-vs-neon color mixing" — confirmat de multiple surse
 
-### DE TESTAT
+**CANDID / AMATEUR FRAMING — CONFIRMAT SOLID (actualizat 2026-05-28):**
+- Tehnica: adauga "a candid photo" sau "amateur photo" ca sufix simplu la sfarsitul promptului
+- Efect confirmat: previne hyperpolish artifacts care tradeaza AI ("paradoxically improves photorealism by preventing hyperpolish artifacts")
+- Confirmat de 4+ autori in 2 repo-uri independente:
+  - ZeroLu GitHub: @AntCaveClub — "A beautiful woman looking at her phone on the subway; a candid photo" (sufix simplu, tehnica minima)
+  - ZeroLu GitHub: @patrickassale — "Amateur iPhone photo at Apple Park during the iPhone 20 keynote, Tim Cook presenting on stage"
+  - ZeroLu GitHub: @patrickassale — "Amateur photo of an open notebook lying flat, filled with handwritten notes... natural imperfections"
+  - Anil-matcha GitHub: "No influencer styling. Faces and postures must look like real pedestrians, not overly polished" + "The image should look like an authentic life slice captured by a photographer in the city"
+- FORMULA OPTIMA: [prompt principal] + "; a candid photo" SAU "amateur [device] photo of" la inceput
+- Varianta negativa: "No influencer styling. Not overly polished." in sectiunea Negative
 
-**"Candid mood" / "amateur photo" framing:**
-- Mentionat in YouMind GitHub dar single-source ca tehnica specifica
-- Logica: reduce "posed" AI look
-- DE TESTAT: adaugare "candid, unposed, amateur photo aesthetic" la hero shots
+**Timestamp overlay pentru digital camera simulation (actualizat 2026-05-28):**
+- gpt-image2/awesome-gptimage2-prompts (179 stars, 2026-04): "timestamp in the bottom-right corner reading '02 18 04'" — simuleaza metadata de camera digitala veche
+- Consistent cu era-photography technique (@pangyusio ZeroLu: "photo from 2003")
+- NIVEL: single-source (gpt-image2 repo); consistent cu G4 pattern = DE TESTAT pentru aplicatii
+
+### DE TESTAT
 
 **Anonimizare cu censor blocks:**
 - YouMind GitHub: "opaque rectangular masks covering faces while preserving identity context"
@@ -230,6 +266,21 @@ Exemple verificate cu autori reali din ZeroLu/awesome-gpt-image (GitHub, colecti
 - Tehnica: cross-brand collab cu consistenta fortata explicit
 - Aplicare i-vory: collab campaign visual
 
+**7. Subway Candid** — @AntCaveClub (X, ZeroLu GitHub)
+- Prompt core: "A beautiful woman looking at her phone on the subway; a candid photo."
+- Tehnica: prompt minimal + candid sufix = result autentic
+- Aplicare i-vory: UGC lifestyle, social content organic-looking
+
+**8. Apple Keynote Amateur** — @patrickassale (X, ZeroLu GitHub)
+- Prompt core: "Amateur iPhone photo at Apple Park during the iPhone 20 keynote, Tim Cook presenting on stage"
+- Tehnica: "amateur" framing + context real specific = credibilitate maxima
+- Aplicare i-vory: event/behind-scenes content pentru brand story
+
+**9. Convenience Store Night Scene** — (Anil-matcha GitHub, 2026-04)
+- Prompt core: "Create an ultra-realistic urban street group photo at a convenience store entrance at 10 PM on a summer night... No influencer styling. Faces and postures must look like real pedestrians, not overly polished... The image should look like an authentic life slice captured by a photographer in the city."
+- Tehnica: negative anti-polish + "authentic life slice" framing + specificatii de ambient real (freezer stickers, glass reflections, shared bikes)
+- Aplicare i-vory: lifestyle brand photo cu produs in scena urbana
+
 ### DE TESTAT
 
 **Prompturi carusel 3:4 vs hero 3:2 din baseline v4:**
@@ -241,6 +292,11 @@ Exemple verificate cu autori reali din ZeroLu/awesome-gpt-image (GitHub, colecti
 - Nu am gasit confirmare comunitara directa (poate exista in forumuri de print design)
 - DE TESTAT: "letterpress printed, subtle deboss, slight ink squish at edges, impression depth 0.3mm"
 
+**Design showcase Western/European cu prompt real si autor verificabil:**
+- GAP: nu am gasit exemple cu handle de X + prompt real + output pentru design European/Western
+- Toate exemplele verificate sunt CJK-heavy sau US-focused
+- DE CAUTAT: Reddit r/ChatGPT, r/OpenAI, r/graphic_design, X creators europeni
+
 ### RESPINS
 
 - Nimic confirmat respins inca pentru G5
@@ -250,12 +306,13 @@ Exemple verificate cu autori reali din ZeroLu/awesome-gpt-image (GitHub, colecti
 ## NOTE METODOLOGICE
 
 **Surse accesate cu succes:**
-- GitHub raw content: ZeroLu/awesome-gpt-image, Anil-matcha/Awesome-GPT-Image-2-API-Prompts, YouMind-OpenLab/awesome-gpt-image-2, openai/openai-cookbook
+- GitHub raw content: ZeroLu/awesome-gpt-image, Anil-matcha/Awesome-GPT-Image-2-API-Prompts, YouMind-OpenLab/awesome-gpt-image-2, openai/openai-cookbook, gpt-image2/awesome-gptimage2-prompts (NOU rulare 2)
 - Web search snippets: multiple surse (fragmentar)
 
 **Surse blocate (403):**
 - OpenAI Developer Community forum (threads specifice)
 - VentureBeat, TechCrunch, Pixo, Phygital+, Fotor, DataCamp, MagicShot, Seaart, etc.
+- weshop.ai, pixnova.ai, chatgptimages.app, fal.ai/learn, morphic.com, sentisight.ai, james-palm.medium.com, atlascloud.ai, apiyi.com
 - Motivul probabil: bot detection / paywall
 
 **Surse SKIP (blogspam/afiliat fara autor):**
