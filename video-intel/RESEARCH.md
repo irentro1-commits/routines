@@ -1,5 +1,5 @@
 # VIDEO INTEL - i-vory Studio Research Base
-> Ultima actualizare: 2026-05-22 | Prima rulare
+> Ultima actualizare: 2026-05-28 | Rulare 2
 
 ---
 
@@ -29,11 +29,18 @@ SUBIECT (detalii specifice)
 > "A [SUBJECT] [ACTION], shot as a [CAMERA MOVE], [LIGHTING], [SETTING]. [END STATE]."
 > Exemplu: "A dentist's gloved hand places an implant into a jawbone model, shot as a slow push-in macro, warm clinical lighting, clean white surface. Hand retracts gently, leaving implant in place."
 
+**[NOU 2026-05-28] Kling O3 Multi-Shot Storyboard:**
+- Pana la 6 shot-uri distincte intr-un clip de 15 sec
+- Fiecare shot are propriul prompt, durata, unghi camera si miscare
+- "AI Director" mode: interpreteaza instructiuni bazate pe script (shot-reverse-shot, cross-cutting)
+- Arhitectura "Omni One" - acelasi motor pentru T2V, I2V si editare
+- Sursa: GenAIntel (feb 2026), MindStudio, vidofy.ai
+
 ### DE TESTAT
 
-- Sora 2 API (activ pana sep 2026) pentru T2V calitate cinematica inainte de shutdown complet
 - Runway "Director Mode" pentru camera control separat de miscarea subiectului
 - Generare in off-peak (noapte) reduce erorile de server la Kling
+- Kling O3 multi-shot storyboard pentru procedura dentara (implant in 4 shot-uri: preparatie → implant → sutura → radiografie)
 
 ### RESPINS
 
@@ -66,10 +73,18 @@ SUBIECT (detalii specifice)
 - Fotografie unica produs → suita video in setari diferite posibila cu I2V
 - Detalii fine (textura, culoare exacta) pastrate daca referinta e clara si mare
 
+**[NOU 2026-05-28] Wan 2.7 workflow alternativ pentru consistenta:**
+- First frame + last frame control: definesti starea initiala SI finala a obiectului
+- 9-grid multi-referinta: combini pana la 9 imagini referinta simultan
+- Subject referencing: produs sau personaj de referinta in paralel cu scena
+- Mai bun decat Seedance la scene multi-subiect; Seedance mai bun la subiect unic expresiv
+- Open-weight (Alibaba) = potential self-hosted
+- Sursa: MindStudio blog (mar 2026), Technology.org 25 mai 2026, LaoZhang AI Blog
+
 ### DE TESTAT
 
 - IP Adapter + Face-lock pentru personaj recurent in mai multe scenarii
-- Kling 3.0 "story mode" pentru personaj consistent in 5+ clipuri scurte
+- Wan 2.7 first+last frame pt produs dentar: imagine produs curat → imagine dupa utilizare (tranzitie)
 - Veo 3.1 vs Kling 3.0 la consistenta brand (produs clinic, culori exacte)
 
 ### RESPINS
@@ -109,10 +124,16 @@ Miscare subiect: specify separately from camera
 Endpoint: always add where motion ends
 ```
 
+**[NOU 2026-05-28] Kling O3 "AI Director" camera blocking:**
+- Script-based camera instructions: "shot 1: wide establishing, shot 2: close-up macro, shot 3: pull back reveal"
+- Cross-cutting si shot-reverse-shot intelese nativ
+- Wan 2.7: camera control avansat + first/last frame = control complet traiectorie
+
 ### DE TESTAT
 
+- Kling O3 AI Director pentru procedura dentara multi-shot (script narativ)
 - Runway Motion Brush pentru scene cu multiple elemente (ex: dinte + instrument + mana)
-- Kling Motion Transfer pe clip procedura dentara (extrage ritm miscare instrument chirurgical)
+- Wan 2.7 first+last frame pentru animatii cu endpoint definit precis (implant: start=gol → end=implantat)
 - Veo 3.1 physics simulation pentru lichide/fluide (relevanta pentru proceduri detartraj)
 
 ### RESPINS
@@ -134,42 +155,58 @@ Endpoint: always add where motion ends
 
 **Tabel pret per secunda (API, mai 2026):**
 
-| Model | Pret/sec | 10 sec clip | Durata max | Note |
-|-------|----------|-------------|------------|------|
-| Kling 3.0 | $0.10 | $1.00 | 120 sec | Cel mai bun raport calitate/pret |
-| Seedance 2.0 | ~$0.05-0.09 | ~$0.90 | 15 sec | Best value overall |
-| Sora 2 (API) | $0.10 base / $0.30-0.50 pro | $1-5 | ~25 sec | SHUTDOWN sep 2026 |
-| Veo 3.1 Fast | $0.15 | $1.50 | - | Rapid prototyping |
-| Veo 3.1 Standard | $0.75 | $7.50 | - | 4K, best lip-sync |
-| Runway Gen-4.5 | ~$1.50/clip | $1.50 | - | Pro advertising |
+| Model | Pret/sec API | Abonament (lunar) | Durata max | Note |
+|-------|-------------|-------------------|------------|------|
+| Kling 3.0 (API direct) | $0.10 | - | 15 sec | - |
+| Kling 3.0 via Higgsfield PLUS | ~$0.039/sec | $39/mo annual | 15 sec | 61% mai ieftin vs API direct |
+| Kling 3.0 via Higgsfield ULTRA | ~$0.033/sec | $99/mo annual | 15 sec | Best value volum mare |
+| Seedance 2.0 (API) | ~$0.05-0.09 | incl. Higgsfield | 15 sec | Best value overall |
+| Wan 2.7 (open-weight) | gratuit (self-host) / API | - | 15 sec | NOU mar 2026, open source |
+| Sora 2 (API) | $0.10-0.50 | - | ~25 sec | SHUTDOWN sep 2026 |
+| Veo 3.1 Lite | sub $0.15 | - | 4/6/8 sec | NOU, budget batch |
+| Veo 3.1 Fast | $0.15 | - | 4/6/8 sec | Rapid prototyping |
+| Veo 3.1 Standard | $0.75 | $19.99/mo Google | 4/6/8 sec | 4K, best lip-sync |
+| Runway Gen-4.5 | ~$1.50/clip | $12-76/mo | - | Pro advertising |
 
-**Abonamente lunare:**
-- Kling Standard: $10/mo (entry cel mai ieftin)
-- Seedance 2.0: ~$9/mo (cel mai bun raport volum/calitate)
-- Runway Standard: $12/mo (~62 clipuri de 10 sec)
-- Runway Pro: $76/mo (volum mare, features avansate)
-- Google AI Pro (Veo 3.1): $19.99/mo
+**[NOU 2026-05-28] Higgsfield - pricing real (verificat direct prin MCP):**
+- PLUS: $49/mo sau **$39/mo annual** → 1000 credite = ~200 Kling 3.0 videos (5s/720p)
+- ULTRA: $129/mo sau **$99/mo annual** → 3000 credite = ~500 Kling 3.0 videos
+- Inclus in PLUS/ULTRA: Seedance 2.0 (Full Access), Kling 3.0, Wan 2.7, Veo 3.1, Veo 3.1 Lite, Grok Video (xAI), Cinema Studio Video 3.0 (proprietary SOTA)
+- Cinema Studio Video 3.0: modelul propriu Higgsfield, tagat "best-quality/sota/film"
+- Marketing Studio: one-click produs ads, TikTok/Reels ready, cu avatar + produs
+- Concurenta: 6 videouri paralele (PLUS), 8 videouri paralele (ULTRA)
+- Sursa: Higgsfield MCP API (verificat direct 28 mai 2026)
 
-**Recomandare i-vory Studio:**
-- Prototipare rapida: Seedance 2.0 ($9/mo) sau Kling Standard ($10/mo)
-- Productie finala calitate: Veo 3.1 sau Kling 3.0 Pro
+**[NOU 2026-05-28] Wan 2.7 (Alibaba, mar 2026):**
+- Open-weight (~27B param, Diffusion Transformer + Flow Matching)
+- Self-hosted = cost zero daca ai GPU (unic pe piata printre top modele)
+- Durata: 2-15 sec, 720p/1080p
+- Sursa: MindStudio blog, Technology.org 25 mai 2026
+
+**Recomandare i-vory Studio [ACTUALIZAT]:**
+- Prototipare rapida + volum: Higgsfield PLUS annual ($39/mo) → acces toate modelele
+- Productie finala calitate: Veo 3.1 Standard sau Cinema Studio 3.0 (Higgsfield)
 - EVITA Sora (shutdown progresiv 2026)
+- INVESTIGHEAZA: Wan 2.7 self-hosted daca volum > 500 clipuri/luna
 
 ### DE TESTAT
 
-- Generare batch in off-peak pentru cost efectiv la Kling
-- Seedance 2.0 pentru volum social media dentar (raport cel mai bun)
-- API direct vs abonament pentru volume lunare > 100 clipuri
+- Higgsfield PLUS vs abonament direct Kling la calitate identica (sunt acelasi model?)
+- Cinema Studio Video 3.0 (Higgsfield SOTA) la macro procedura clinica
+- Wan 2.7 self-hosted pentru volum mare → cost efectiv?
+- Veo 3.1 Lite pentru batch social media dentar (4/6/8 sec → ideal Reels)
 
 ### RESPINS
 
 - Sora pentru proiecte noi (shutdown confirmat API sep 2026)
 - Veo 3.1 Standard pentru draft/prototip (prea scump la $0.75/sec)
+- API direct Kling cand Higgsfield ofera acelasi model la 61% mai ieftin
 
 **Surse:**
 - BuildMVPFast API pricing apr 2026: https://www.buildmvpfast.com/api-costs/ai-video
 - LaoZhang cost guide 2026: https://blog.laozhang.ai/en/posts/how-much-does-ai-video-generator-cost
-- Vo3AI comparison: https://www.vo3ai.com/ai-video-generator-pricing-comparison
+- Wan 2.7 vs Seedance (LaoZhang 2026): https://blog.laozhang.ai/en/posts/wan-2-7-vs-seedance-2-0
+- Technology.org Wan 2.7 (25 mai 2026): https://www.technology.org/2026/05/25/wan-2-7-vs-wan-2-2-what-changed-in-alibaba-s-flagship-video-model/
 
 ---
 
@@ -211,15 +248,37 @@ Endpoint: always add where motion ends
 - Implant: "implant insurubat lent in os, cross-section view, clinical light"
 - Inflamatie gingivala: "gingiva se inroseste progresiv, close-up macro"
 
+**[NOU 2026-05-28] Romana in audio AI video - NEGATIV confirmat:**
+- Seedance 2.0: limbi suportate EN/CN/JP/KR/ES/ID + dialecte chineze. Romana = ABSENT.
+- Kling O3: EN/CN/JP/KR/ES. Romana = ABSENT.
+- WORKAROUND: genereaza video fara audio → dubbing exterior cu ElevenLabs (romana suportata)
+- Sursa: Seedance official site (seed.bytedance.com), Cutout.pro blog, GenAIntel feb 2026
+
+**[NOU 2026-05-28] Wan 2.7 pentru tranzitii anatomice:**
+- First frame = dinte sanatos / Last frame = dinte cu carie → animeaza procesul de degradare
+- Prima data posibil nativ in orice model (anterior necesita multi-pass)
+- Workflow: fotografie macro dinte sanatoase (input 1) + fotografie sau imagine AI dinte cariot (input 2) → Wan 2.7 I2V
+- Sursa: MindStudio blog (mar 2026)
+
+**[NOU 2026-05-28] Higgsfield Marketing Studio pentru social media dentar:**
+- One-click product ads cu avatar + produs
+- TikTok/Reels ready (format vertical nativ)
+- Produs: poza periuta/pasta/implant → ad animat direct
+- Potential pentru "inainte/dupa" detartraj cu avatar AI prezentator
+
 ### DE TESTAT
 
-- Veo 3.1 physics pentru apa/spray (detartraj) → realismul fluidelor
-- Kling Motion Transfer: inregistreaza miscarea mainii proprii cu instrument → aplica pe model anatomic
-- Seedance 2.0 audio nativ pentru explainer in romana (testat cu 8 limbi, ROM inclusa?)
-- Prompt cu "cross-section view dental anatomy" - cat de bine intelege modelele anatomice
+- Wan 2.7 first+last frame: dinte sanatoase → carie (tranzitie anatomica)
+- Cinema Studio Video 3.0 (Higgsfield SOTA) pentru macro procedura clinica
+- Veo 3.1 Lite pentru batch Reels dentare (4/6/8 sec, mai ieftin)
+- Veo 3.1 physics pentru apa/spray detartraj
+- Kling O3 multi-shot storyboard: procedura implant in 4 shot-uri narative
+- Prompt "cross-section view dental anatomy" cu Kling O3 AI Director
+- Higgsfield Marketing Studio: produs dentar (pasta/periuta) → ad animat
 
 ### RESPINS
 
+- Seedance 2.0 / Kling O3 pentru audio in romana: CONFIRMAT NEGATIV
 - Generare directa T2V "show tooth decay process microscopically" → halucinatii anatomice garantate
 - Footage clinic real ca I2V input fara consent pacient → risc GDPR + etic
 - Asteptarea unui tool specializat medical → nu exista in 2026, cel mai bun e workflow I2V cu referinte proprii
@@ -231,12 +290,17 @@ Endpoint: always add where motion ends
 
 ---
 
-## MODEL LANDSCAPE (mai 2026)
+## MODEL LANDSCAPE (mai 2026) [ACTUALIZAT 2026-05-28]
 
-| Model | Puncte forte | Slab la |
-|-------|-------------|---------|
-| Kling 3.0 | Motion Control unic, pret OK, durata 120s | Uneori suprarealist |
-| Veo 3.1 | Calitate vizuala top, lip-sync, physics | Scump la Standard |
-| Seedance 2.0 | Raport calitate/pret, audio nativ, leaderboard | Durata max 15s |
-| Runway Gen-4.5 | Director Mode, Motion Brush, commercial | Mai scump, fara audio nativ |
-| Sora 2 | - | SHUTDOWN progresiv, evita pentru proiecte noi |
+| Model | Puncte forte | Slab la | Acces |
+|-------|-------------|---------|-------|
+| Kling 3.0 / O3 | Motion Control, AI Director 6-shot, 15s, 4K | Pret API ridicat direct | API, Higgsfield |
+| Veo 3.1 Standard | Calitate vizuala top, lip-sync, physics | Scump ($0.75/sec) | Google AI Pro, Higgsfield |
+| Veo 3.1 Lite | Ieftin, batch, 4/6/8s | Durata mica | Higgsfield |
+| Seedance 2.0 | Consistenta identitate, multi-SKU, audio nativ | Romana audio absent | Higgsfield, ByteDance API |
+| Wan 2.7 | First+last frame, open-weight, camera avansat | Mai nou, mai putin testat | Higgsfield, self-host |
+| Cinema Studio 3.0 | SOTA Higgsfield, film-grade | Proprietary, doar pe Higgsfield | Higgsfield |
+| Runway Gen-4.5 | Director Mode, Motion Brush, commercial | Scump, fara audio nativ | Runway.com |
+| Minimax Hailuo 2.3 | Physics natural, emotii faciale, 1080p | Durate fixe (6/10s) | Higgsfield |
+| Grok Imagine (xAI) | T2V + I2V, audio, pana 15s | Inca neacoperit in tests | Higgsfield |
+| Sora 2 | - | SHUTDOWN progresiv, evita pentru proiecte noi | - |
