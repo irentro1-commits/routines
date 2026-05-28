@@ -3,6 +3,56 @@ Ordinea: cel mai nou sus.
 
 ---
 
+## [2026-05-28] RULARE 2 — DELTA PE GOLURI ACTIVE
+
+**Stare anterioara:** 3 goluri din rularea 1 (G3/Legal penal, G3/Kineto+AVC, G5/Romana)
+
+**Delta adaugat la RESEARCH.md:**
+
+G3 / Legal penal — PARTIAL DEBLOCAT (LOW → MED):
+- Rata engagement Instagram legal/professional: 4.23% la 2 posts/saptamana (sursa: growth-onomics 2026)
+- Facebook = 67% din consultatii pentru avocati penalisti, audienta 25-55 ani (sursa: rankings.io 2026)
+- Creatori virali de referinta confirmati: Mike Mandell 7M followeri, Dan Cogdell 100k+ in 3 luni
+- Formula #1 cu tractiune EN: "Nu esti obligat sa vorbesti. Ai drepturi." + demonstrare practica
+- Formula #2: Myth-busting juridic ("Crezi ca X. Nu e asa.")
+- Formula #3: "Ce sa faci in primele [X minute] dupa [eveniment legal]" — urgenta + actionabil
+- 3 hookuri RO adaptate DE TESTAT (necesita verificare juridica)
+- GOL RAMAS: date RO specifice, conturi avocati romani cu tractiune masurabil
+
+G3 / Kineto+AVC — DEBLOCAT CU DATE CONCRETE (MED → MED-HIGH):
+- Healthcare Instagram: 3.89% engagement la 2 posts/saptamana (sursa: media.market.us 2026)
+- Carusel healthcare = 4.5% engagement — cel mai performant format in nisa medicala (sursa: dashsocial 2026)
+- Video educational optim: 30-45 secunde pentru kineto
+- Stroke recovery journey content = trending TikTok (hashtag-uri active: #strokewarrior, #strokesurvivor)
+- Milestone hook confirmat: "What a difference 2 years can make" — naratiune temporala cu progres vizibil
+- Conturi RO identificate: @kinetoexpress (Instagram), @mesteru_de_oase (TikTok) — analiza necesara
+- Hook nou adaptat i-vory: "Saptamana 1: nu putea misca degetele. Saptamana 8: a mers singur."
+
+G5 / Romana — DATE DEMOGRAFICE ADAUGATE (LOW-MED → MED):
+- TikTok Romania: 8.71M useri 18+ (DataReportal, late 2025); 57% adulti ajunsi prin TikTok ads
+- Instagram Romania: +500k useri in 3 luni (crestere 9.1%, DataReportal 2026)
+- Viral threshold TikTok RO 2026: 70%+ completion rate (crescut de la 50% in 2024)
+- First-hour engagement = 80% din potential viral (VisionFlow, mai 2026)
+- Formula RO confirmata: incepe cu REZULTATUL, nu cu "Buna ziua, suntem..."
+- Seriile de hook validate pentru RO: "3 greseli...", "Adevarul despre...", "Inainte/dupa...", "De ce nu merge..."
+- Algoritmul TikTok detecteaza si penalizeaza continut "prea comercial" in 2026
+- GOL RAMAS: exemple concrete RO cu saves/shares reale (studii de caz)
+
+G1, G2, G4 — nimic nou. Skip.
+
+**Surse utilizate (noi):** 8 URL-uri, toate 2025-2026
+**Surse respinse:** multiple (403 Forbidden pe toppeconsulting, yoyofumedia, favorkon, hootsuite, growlaw — nu au putut fi accesate direct)
+**Nivel incredere general:** G3/legal MED, G3/kineto MED-HIGH, G5 MED
+
+**Goluri prioritare urmatoarea rulare:**
+1. G3 / Legal penal RO — analiza directa conturi avocati romani pe Instagram/TikTok cu tractiune (engagement, lead conversion)
+2. G5 / Romana — studii de caz concrete: conturi RO (@kinetoexpress, marketing SMB RO) cu date proprii de saves/shares
+3. G3 / Kineto RO — analiza @mesteru_de_oase si @kinetoexpress: ce hookuri folosesc, ce prinde
+
+**Urmatoarea rulare recomandata:** dupa 2026-06-11 sau la cerere
+
+---
+
 ## [2026-05-22] RULARE 1 — INITIALIZARE COMPLETA
 
 **Stare anterioara:** gol (prima rulare, folder creat de la zero)
