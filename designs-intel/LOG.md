@@ -3,6 +3,41 @@ _Ordinea: cel mai recent sus_
 
 ---
 
+## [2026-05-28] RULARE 2 — Delta post-22-mai
+
+**Stare anterioara:** RESEARCH.md complet pe toate 4 goaluri, fara cifre concrete de save-rate si fara ponderi algoritm.
+**Surse verificate:** 12+ URL-uri cautate via WebSearch; date din Q1 2026 si 2025-11.
+**Fereastra data noua:** 2026-05-22 pana 2026-05-28.
+
+**Delta adaugat:**
+
+G1 (paleta/contrast):
+- WGSN/Coloro 2026 accent colors: Transformative Teal (Color of Year), Electric Fuchsia, Amber Haze, Blue Aura, Jelly Mint — directie concreta pentru dopamine pop
+- Formula validata: neutral clarity base + 1 accent WGSN repetat consistent pe covers
+
+G2 (tipografie/ierarhie):
+- 3D dimensional text (text-behind-object) = tehnica cu tractiune 2026
+- Maximalism tipografic: oversized + gradiente + color-on-color
+- Retro groovy 70s + 50s diner signage = nisa lifestyle/design cu save potential
+- Serif revival sharp + high contrast
+
+G3 (layout/compozitie):
+- 5-7 slides = 3.4x saves + 2.1x shares vs. static (date Q1 2026) — prima cifra concreta
+- Sweet spot: 7-10 slides; 10 slides valabil DOAR daca completion rate > 60%
+- Carusel vs. Reels: 114% > single-image, 12% > Reels; Saves Reels -43% in 2026 = vacuum
+
+G4 (element neasteptat / algoritm):
+- Saves ponderat 3x > likes in algoritmul 2026
+- DM share = 15 likes in scor distributie — design for shareability, nu pentru likes
+- Top 4 semnale 2026: DM shares > saves > watch-time > profile clicks; likes ≈ 0
+- 60-70% ranking Reels decis in primele 3 secunde; 3 hook types dominante
+
+**Goluri ramase:** inca lipsesc cifre absolute de save-rate (ex: "X% din vizitatori salveaza carouselul de tip Y"); lipseste analiza pe estetica i-vory specifica; nu exista studiu cu sample size publicat clar.
+
+**Urmatoarea rulare:** cauta date post-mai 2026 pe save-rate absolut per nisa de continut + orice studiu nou cu metodologie.
+
+---
+
 ## [2026-05-22] PRIMA RULARE — Delta complet (punct 0)
 
 **Stare anterioara:** repo gol, niciun fisier anterior.
